@@ -1,6 +1,13 @@
-<template>
+<script setup lang="ts">
+useHead({
+  bodyAttrs: {
+    class: 'bg-background-light dark:bg-background-dark font-display text-text-main antialiased selection:bg-primary selection:text-primary-content',
+  },
+})
+</script>
 
-<!-- <body class="bg-background-light dark:bg-background-dark font-display text-text-main antialiased selection:bg-primary selection:text-primary-content"> -->
+
+<template>
 
   <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
 <!-- Navigation -->
