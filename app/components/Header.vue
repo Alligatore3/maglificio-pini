@@ -7,22 +7,26 @@
       <nav class="hidden md:flex items-center gap-8">
         <NuxtLink
           class="text-sm font-medium hover:text-primary-content/70 dark:text-gray-200 transition-colors"
+          active-class="active"
           to="/about"
         >
           Our Story
         </NuxtLink>
         <NuxtLink
           class="text-sm font-medium hover:text-primary-content/70 dark:text-gray-200 transition-colors"
+          active-class="active"
           to="/quality"
           >Quality</NuxtLink
         >
         <NuxtLink
           class="text-sm font-medium hover:text-primary-content/70 dark:text-gray-200 transition-colors"
+          active-class="active"
           to="/seasonality"
           >Seasonality</NuxtLink
         >
         <NuxtLink
           class="text-sm font-medium hover:text-primary-content/70 dark:text-gray-200 transition-colors"
+          active-class="active"
           to="/contact"
           >Contact</NuxtLink
         >
