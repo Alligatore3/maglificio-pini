@@ -27,6 +27,12 @@
         <NuxtLink
           class="text-sm font-medium hover:text-primary-content/70 dark:text-gray-200 transition-colors"
           active-class="active"
+          to="/professional"
+          >For Professional</NuxtLink
+        >
+        <NuxtLink
+          class="text-sm font-medium hover:text-primary-content/70 dark:text-gray-200 transition-colors"
+          active-class="active"
           to="/contact"
           >Contact</NuxtLink
         >
