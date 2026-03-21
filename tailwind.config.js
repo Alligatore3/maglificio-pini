@@ -13,6 +13,7 @@ export default {
         'background-light': '#f8f8f5',
         'background-dark': '#23220f',
         'text-main': '#1c1c0d',
+        'text-secondary': '#57574b',
         'text-muted': '#57574b',
         'border-color': '#e6e6da',
       },
