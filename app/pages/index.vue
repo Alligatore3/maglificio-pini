@@ -104,6 +104,7 @@
         </div>
       </div>
     </div>
+
     <!-- Introduction Section -->
     <section class="py-20 lg:py-24" id="story">
       <div class="mx-auto max-w-3xl px-6 text-center">
@@ -121,6 +122,7 @@
         </p>
       </div>
     </section>
+
     <!-- Features Grid -->
     <section class="py-12 bg-white dark:bg-[#1a190b]" id="quality">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">

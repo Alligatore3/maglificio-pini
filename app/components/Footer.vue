@@ -3,10 +3,8 @@
     <div
       class="mx-auto max-w-7xl px-6 flex flex-col md:flex-row justify-between items-center gap-6"
     >
-      <div class="flex items-center gap-2">
-        <span class="material-symbols-outlined text-primary-content dark:text-white">diamond</span>
-        <span class="text-lg font-bold text-text-main dark:text-white">Trusffle</span>
-      </div>
+      <Logo />
+
       <div class="flex gap-8 text-sm text-text-muted dark:text-gray-400">
         <a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
         <a class="hover:text-primary transition-colors" href="#">Terms of Trade</a>

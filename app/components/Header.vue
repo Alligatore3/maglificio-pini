@@ -3,32 +3,28 @@
     class="sticky top-0 z-50 w-full border-b border-border-color/50 bg-background-light/95 backdrop-blur-md dark:bg-background-dark/95"
   >
     <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-12">
-      <div class="flex items-center gap-3 text-text-main dark:text-white">
-        <span class="material-symbols-outlined text-3xl text-primary-content dark:text-primary"
-          >diamond</span
-        >
-        <h2 class="text-xl font-bold tracking-tight">Trusffle</h2>
-      </div>
+      <Logo />
       <nav class="hidden md:flex items-center gap-8">
-        <a
+        <NuxtLink
           class="text-sm font-medium hover:text-primary-content/70 dark:text-gray-200 transition-colors"
-          href="#story"
-          >Our Story</a
+          to="/about"
         >
-        <a
+          Our Story
+        </NuxtLink>
+        <NuxtLink
           class="text-sm font-medium hover:text-primary-content/70 dark:text-gray-200 transition-colors"
-          href="#quality"
-          >Quality</a
+          to="/quality"
+          >Quality</NuxtLink
         >
-        <a
+        <NuxtLink
           class="text-sm font-medium hover:text-primary-content/70 dark:text-gray-200 transition-colors"
-          href="#seasonality"
-          >Seasonality</a
+          to="/seasonality"
+          >Seasonality</NuxtLink
         >
-        <a
+        <NuxtLink
           class="text-sm font-medium hover:text-primary-content/70 dark:text-gray-200 transition-colors"
-          href="#contact"
-          >Contact</a
+          to="/contact"
+          >Contact</NuxtLink
         >
       </nav>
       <button
