@@ -16,13 +16,9 @@
         <span class="text-sm font-bold uppercase tracking-widest opacity-60">Maglificio Pini</span>
       </div>
       <div class="flex gap-8 text-xs font-semibold text-[#896168] dark:text-[#a5868c]">
-        <NuxtLink class="hover:text-primary transition-colors" to="/privacy-policy">
-          Privacy Policy
-        </NuxtLink>
-        <NuxtLink class="hover:text-primary transition-colors" to="/legal-terms">
-          Terms of Trade
-        </NuxtLink>
-        <NuxtLink class="hover:text-primary transition-colors" to="/sustainability-report">
+        <NuxtLink class="hover:text-primary transition-colors" to="/"> Privacy Policy </NuxtLink>
+        <NuxtLink class="hover:text-primary transition-colors" to="/"> Terms of Trade </NuxtLink>
+        <NuxtLink class="hover:text-primary transition-colors" to="/">
           Sustainability Report
         </NuxtLink>
       </div>

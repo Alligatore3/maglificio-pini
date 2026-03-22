@@ -10,30 +10,23 @@
           <NuxtLink
             class="text-sm font-medium hover:text-primary/70 dark:text-gray-200 transition-colors"
             active-class="active"
-            to="/heritage"
+            to="/company"
           >
-            Heritage
+            Company
           </NuxtLink>
           <NuxtLink
             class="text-sm font-medium hover:text-primary/70 dark:text-gray-200 transition-colors"
             active-class="active"
-            to="/archive"
+            to="/contacts"
           >
-            Archive
+            Contacts
           </NuxtLink>
           <NuxtLink
             class="text-sm font-medium hover:text-primary/70 dark:text-gray-200 transition-colors"
             active-class="active"
-            to="/process"
+            to="/services"
           >
-            Process
-          </NuxtLink>
-          <NuxtLink
-            class="text-sm font-medium hover:text-primary/70 dark:text-gray-200 transition-colors"
-            active-class="active"
-            to="/sustainability"
-          >
-            Sustainability
+            Services
           </NuxtLink>
         </div>
         <div class="flex items-center gap-4 border-l border-[#e6dbdd] dark:border-[#3d2025] pl-8">
