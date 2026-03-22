@@ -1,313 +1,360 @@
 <template>
-  <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+  <div class="relative flex min-h-screen flex-col">
     <!-- Hero Section -->
-    <div class="relative w-full px-4 pt-4 pb-12 sm:px-6 lg:px-8">
-      <div
-        class="mx-auto max-w-7xl overflow-hidden rounded-xl md:rounded-3xl relative min-h-[600px] flex flex-col items-center justify-center text-center p-8 lg:p-16 bg-cover bg-center"
-        data-alt="Close up high resolution shot of fresh black truffles covered in dark soil, elegant and earthy lighting"
-        style="
-          background-image:
-            linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%),
-            url('https://lh3.googleusercontent.com/aida-public/AB6AXuB4g90f0Ka4volO2CTeE3iFoStEptqcpVV1fNZRlZ_sPAFqLNH9gC26KO2L9bkf2tHMJgzuizjau5Yu5aSnnAQOwB113LsM8r2AIZOp1h6y09fiPPVmtebFK1DjRXgDYsP3o0GWbmgd1chj0zf5-nokV_S0knnxhA4P9cO1wuhl3PfEJ7fiQxNPgiDyFqE1lWTi4I3x_BleFxFNEKTlRbJ62rNCQ5d8SF9220EllU0PUsWKLVv2XZTvIhG6XNzGMtM0nDLE3K9xhJ6B');
-        "
-      >
-        <div class="absolute inset-0 bg-black/10"></div>
-        <div class="relative z-10 flex flex-col items-center gap-6 max-w-3xl animate-fade-in-up">
-          <div
-            class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 backdrop-blur-sm"
-          >
-            <span class="relative flex h-2 w-2">
-              <span
-                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"
-              ></span>
-              <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
-            </span>
-            <span class="text-xs font-semibold uppercase tracking-wider text-white"
-              >Harvesting Now</span
-            >
-          </div>
-          <h1
-            class="text-4xl font-black leading-tight tracking-tight text-white sm:text-5xl lg:text-7xl"
-          >
-            Premium Australian Truffles,<br />Crafted for Japan.
-          </h1>
-          <p class="max-w-xl text-lg text-white/90 sm:text-xl font-light leading-relaxed">
-            Direct from the pristine forests of Western Australia to the finest kitchens in Tokyo.
-            Uncompromised quality, delivered fresh.
-          </p>
-          <div class="mt-4 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-            <button
-              class="h-12 w-full sm:w-auto px-8 rounded-full bg-primary text-primary-content text-base font-bold hover:bg-[#eae605] transition-colors shadow-xl shadow-black/20"
-            >
-              View Harvest Schedule
-            </button>
-            <button
-              class="h-12 w-full sm:w-auto px-8 rounded-full bg-white/10 backdrop-blur-md border border-white/30 text-white text-base font-medium hover:bg-white/20 transition-colors"
-            >
-              Learn About Us
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- Floating Status Bar -->
-      <div class="relative -mt-8 mx-auto max-w-4xl px-4 z-20">
+    <main class="flex-1">
+      <section class="relative h-[85vh] w-full overflow-hidden">
         <div
-          class="flex flex-wrap items-center justify-between gap-4 rounded-xl bg-white dark:bg-[#2f2e1a] p-4 shadow-xl border border-border-color/50 dark:border-white/5"
-        >
-          <div class="flex items-center gap-4 px-2">
-            <div
-              class="flex h-10 w-10 items-center justify-center rounded-full bg-[#f4f4e6] dark:bg-white/10 text-text-main dark:text-white"
-            >
-              <span class="material-symbols-outlined">calendar_month</span>
-            </div>
-            <div>
-              <p
-                class="text-xs font-semibold uppercase tracking-wider text-text-muted dark:text-gray-400"
+          class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000"
+          data-alt="Macro close-up of high-end Italian cashmere knitwear texture"
+          style="
+            background-image:
+              linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 100%),
+              url('https://lh3.googleusercontent.com/aida-public/AB6AXuCscN0olCRoRamNi6T7kpFRGYIIxGO5zYPJjdNhaVqk_w8BvYmF0NxrEJQEd1PazS-il7u4VLzC6cCdmWQmaKHflyZwZu7mohJq7-avAVMaDqXxPvxVpW6OxP6lYOTzoKsiIpEaXrCwBnngM-IaXWat_l9t3r3BfGtyhvGJeKAikuElvcL9I1LYq0RDssQir2r_CNsAIVZFMFSAbwQRnR_rlVNbJ-nMvhG5RPcZJJQHTE_5sFWSsDw56cs982cdsQz9dp65kn54sdtl');
+          "
+        ></div>
+        <div class="relative z-10 flex h-full items-center justify-center px-6 text-center">
+          <div class="max-w-[900px]">
+            <p class="mb-4 text-xs font-bold uppercase tracking-[0.4em] text-white/80">
+              Excellence in Knitwear
+            </p>
+            <h1 class="text-5xl font-extrabold leading-[1.1] tracking-tight text-white lg:text-7xl">
+              Made in Italy manufacturing <br class="hidden lg:block" />
+              for Asian luxury brands
+            </h1>
+            <p class="mt-8 text-lg font-light leading-relaxed text-white/90 lg:text-xl">
+              Bridging Italian craftsmanship with the world's most discerning fashion houses
+              <br class="hidden md:block" />
+              across Shanghai, Tokyo, and beyond.
+            </p>
+            <div class="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
+              <button
+                class="min-w-[220px] rounded-lg bg-primary py-4 text-sm font-bold uppercase tracking-widest text-white transition-all hover:scale-105 active:scale-95"
               >
-                Current Season
-              </p>
-              <p class="font-bold text-text-main dark:text-white">Winter Black Truffle</p>
-            </div>
-          </div>
-          <div class="hidden h-8 w-px bg-border-color md:block"></div>
-          <div class="flex items-center gap-4 px-2">
-            <div
-              class="flex h-10 w-10 items-center justify-center rounded-full bg-[#f4f4e6] dark:bg-white/10 text-text-main dark:text-white"
-            >
-              <span class="material-symbols-outlined">flight_takeoff</span>
-            </div>
-            <div>
-              <p
-                class="text-xs font-semibold uppercase tracking-wider text-text-muted dark:text-gray-400"
+                Focus on China
+              </button>
+              <button
+                class="min-w-[220px] rounded-lg bg-white/10 py-4 text-sm font-bold uppercase tracking-widest text-white backdrop-blur-md transition-all hover:bg-white/20"
               >
-                Next Shipment
-              </p>
-              <p class="font-bold text-text-main dark:text-white">Tokyo: Tomorrow, 10 AM</p>
-            </div>
-          </div>
-          <div class="hidden h-8 w-px bg-border-color md:block"></div>
-          <div class="flex items-center gap-4 px-2">
-            <div
-              class="flex h-10 w-10 items-center justify-center rounded-full bg-[#f4f4e6] dark:bg-white/10 text-text-main dark:text-white"
-            >
-              <span class="material-symbols-outlined">verified</span>
-            </div>
-            <div>
-              <p
-                class="text-xs font-semibold uppercase tracking-wider text-text-muted dark:text-gray-400"
-              >
-                Quality
-              </p>
-              <p class="font-bold text-text-main dark:text-white">Grade A+ Certified</p>
+                Focus on Japan
+              </button>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Introduction Section -->
-    <section class="py-20 lg:py-24" id="story">
-      <div class="mx-auto max-w-3xl px-6 text-center">
-        <span class="material-symbols-outlined text-4xl text-primary mb-4">spa</span>
-        <h2
-          class="text-3xl font-bold tracking-tight text-text-main dark:text-white sm:text-4xl mb-6"
+      </section>
+      <!-- Stats Bar -->
+      <section class="mx-auto max-w-[1200px] px-6 py-16">
+        <div
+          class="flex flex-wrap justify-between gap-8 border-y border-[#e6dbdd] dark:border-[#3d2025] py-12"
         >
-          The Trusffle Heritage
-        </h2>
-        <p class="text-lg leading-relaxed text-text-muted dark:text-gray-300">
-          Founded in the rich, loamy soils of Manjimup, Western Australia, Trusffle brings together
-          traditional European truffle hunting techniques with Australia's unique terroir. We
-          understand the precision required by Japanese cuisine, which is why every truffle is
-          hand-selected, cleaned, and graded specifically for the Japanese market.
-        </p>
-      </div>
-    </section>
-
-    <!-- Features Grid -->
-    <section class="py-12 bg-white dark:bg-[#1a190b]" id="quality">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="grid gap-8 md:grid-cols-3">
-          <!-- Feature 1 -->
           <div
-            class="group relative overflow-hidden rounded-2xl bg-background-light dark:bg-white/5 p-8 transition-all hover:bg-[#f4f4e6] dark:hover:bg-white/10"
+            class="flex min-w-[200px] flex-1 flex-col items-center gap-1 text-center lg:items-start lg:text-left"
           >
-            <div
-              class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/20 text-primary-content dark:text-primary"
-            >
-              <span class="material-symbols-outlined icon-filled">sunny</span>
-            </div>
-            <h3 class="mb-2 text-xl font-bold text-text-main dark:text-white">
-              Counter-Seasonal Advantage
+            <span class="text-5xl font-extrabold text-primary">3</span>
+            <h3 class="text-sm font-bold uppercase tracking-widest text-[#181112] dark:text-white">
+              Core Pillars
             </h3>
-            <p class="text-text-muted dark:text-gray-400 leading-relaxed">
-              Enjoy fresh black truffles during the Japanese summer. Our winter harvest in Australia
-              perfectly complements Japan's seasonal menus when European supply is dormant.
-            </p>
+            <p class="text-sm text-[#896168] dark:text-[#a5868c]">Craftsmanship, Tech, Design</p>
           </div>
-          <!-- Feature 2 -->
           <div
-            class="group relative overflow-hidden rounded-2xl bg-background-light dark:bg-white/5 p-8 transition-all hover:bg-[#f4f4e6] dark:hover:bg-white/10"
+            class="flex min-w-[200px] flex-1 flex-col items-center gap-1 text-center lg:items-start lg:text-left"
           >
-            <div
-              class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/20 text-primary-content dark:text-primary"
-            >
-              <span class="material-symbols-outlined icon-filled">security</span>
-            </div>
-            <h3 class="mb-2 text-xl font-bold text-text-main dark:text-white">
-              Food Safety & Traceability
+            <span class="text-5xl font-extrabold text-primary">100+</span>
+            <h3 class="text-sm font-bold uppercase tracking-widest text-[#181112] dark:text-white">
+              Archive Pieces
             </h3>
-            <p class="text-text-muted dark:text-gray-400 leading-relaxed">
-              HACCP certified and fully traceable from soil to plate. We prioritize strict hygiene
-              standards to meet the expectations of Japan's most rigorous chefs.
-            </p>
+            <p class="text-sm text-[#896168] dark:text-[#a5868c]">Historical Italian Heritage</p>
           </div>
-          <!-- Feature 3 -->
           <div
-            class="group relative overflow-hidden rounded-2xl bg-background-light dark:bg-white/5 p-8 transition-all hover:bg-[#f4f4e6] dark:hover:bg-white/10"
+            class="flex min-w-[200px] flex-1 flex-col items-center gap-1 text-center lg:items-start lg:text-left"
           >
-            <div
-              class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/20 text-primary-content dark:text-primary"
-            >
-              <span class="material-symbols-outlined icon-filled">schedule</span>
-            </div>
-            <h3 class="mb-2 text-xl font-bold text-text-main dark:text-white">48-Hour Freshness</h3>
-            <p class="text-text-muted dark:text-gray-400 leading-relaxed">
-              Our optimized logistics network ensures that truffles harvested on Monday morning are
-              in Tokyo kitchens by Wednesday. Freshness is our promise.
+            <span class="text-5xl font-extrabold text-primary">1</span>
+            <h3 class="text-sm font-bold uppercase tracking-widest text-[#181112] dark:text-white">
+              Ethical Standard
+            </h3>
+            <p class="text-sm text-[#896168] dark:text-[#a5868c]">
+              Sustainability-First Production
             </p>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Image Break / Visual Interest -->
-    <section class="py-20 px-4">
-      <div
-        class="mx-auto max-w-7xl rounded-3xl overflow-hidden relative h-[500px] flex items-center bg-cover bg-fixed bg-center"
-        data-alt="Chef shaving black truffles over a pasta dish in a high end restaurant setting"
-        style="
-          background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDwgGpJVc-d_SBSiC9KueGA0FUkTqJB57O0dC5r7E6jIlc8hT3eUcLxJ6BZHIFz6NvFj2twGAgq8Xhw61mMOcdQFGw0fWLxPjDU7LoTODTZg47L-urV4CYURNSk7u_dd5GHePwoYuQuB2IJhOy9MNWrdUplaqBXkmYUKp4KHh7bd-TNXzIuLx5q5ktmgXCVISFI_dA2ksSy6UvYkETGlrP8bQOT195S33f9nfmSdesghQUsVEzcOQ3FUOoIfoF8TOMY3k0o61h3r9s4');
-        "
-      >
-        <div class="absolute inset-0 bg-black/40"></div>
-        <div class="relative z-10 p-12 max-w-2xl">
-          <h2 class="text-4xl md:text-5xl font-black text-white mb-6">Elevate Your Menu</h2>
-          <p class="text-xl text-white/90 mb-8 font-medium">
-            Join the exclusive network of top-tier restaurants in Tokyo, Osaka, and Kyoto serving
-            Trusffle.
-          </p>
-          <button
-            class="h-12 px-8 rounded-full bg-primary text-primary-content text-sm font-bold hover:bg-white hover:text-black transition-colors"
-          >
-            Request a Sample
-          </button>
-        </div>
-      </div>
-    </section>
-    <!-- Social Proof / Trusted By -->
-    <section class="py-16 bg-background-light dark:bg-background-dark">
-      <div class="mx-auto max-w-7xl px-6 text-center">
-        <h3
-          class="text-sm font-bold uppercase tracking-widest text-text-muted dark:text-gray-500 mb-10"
-        >
-          Trusted by Professionals Across Japan
-        </h3>
-        <div
-          class="flex flex-wrap justify-center items-center gap-12 opacity-60 grayscale hover:grayscale-0 transition-all duration-500"
-        >
-          <!-- Logo Placeholders using text for simplicity but styled like logos -->
-          <div class="flex items-center gap-2">
-            <span class="material-symbols-outlined text-4xl">restaurant</span>
-            <span class="font-serif text-2xl font-bold">Ginza K.</span>
+      </section>
+      <!-- How We Work -->
+      <section class="bg-[#f2eced] dark:bg-[#2a1619] py-24">
+        <div class="mx-auto max-w-[1200px] px-6">
+          <div class="mb-16 text-center">
+            <h2 class="text-3xl font-extrabold tracking-tight lg:text-4xl">
+              How We Work: The Path to Perfection
+            </h2>
+            <div class="mx-auto mt-4 h-1 w-20 bg-primary"></div>
           </div>
-          <div class="flex items-center gap-2">
-            <span class="material-symbols-outlined text-4xl">water_drop</span>
-            <span class="font-serif text-2xl font-bold">Umi & Earth</span>
-          </div>
-          <div class="flex items-center gap-2">
-            <span class="material-symbols-outlined text-4xl">local_fire_department</span>
-            <span class="font-serif text-2xl font-bold">ROKKA</span>
-          </div>
-          <div class="flex items-center gap-2">
-            <span class="material-symbols-outlined text-4xl">eco</span>
-            <span class="font-serif text-2xl font-bold">Naturale</span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Contact Section -->
-    <section
-      class="py-20 lg:py-28 bg-white dark:bg-[#1a190b] relative overflow-hidden"
-      id="contact"
-    >
-      <!-- Decorative background element -->
-      <div
-        class="absolute top-0 right-0 -mr-20 -mt-20 h-64 w-64 rounded-full bg-primary/10 blur-3xl"
-      ></div>
-      <div class="mx-auto max-w-4xl px-6 relative z-10">
-        <div
-          class="rounded-3xl bg-background-light dark:bg-white/5 border border-border-color dark:border-white/10 p-8 md:p-12 shadow-2xl"
-        >
-          <div class="flex flex-col md:flex-row gap-12">
-            <div class="flex-1">
-              <h2 class="text-3xl font-bold text-text-main dark:text-white mb-4">
-                Partner with Trusffle
-              </h2>
-              <p class="text-text-muted dark:text-gray-300 mb-8">
-                We are currently accepting applications for the upcoming season. Wholesale inquiries
-                only.
+          <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
+            <div class="relative flex flex-col items-center text-center">
+              <div
+                class="mb-6 flex size-16 items-center justify-center rounded-full bg-white dark:bg-[#3d2025] shadow-sm"
+              >
+                <span class="material-symbols-outlined text-primary text-3xl">lightbulb</span>
+              </div>
+              <h4 class="mb-2 text-lg font-bold">1. Consultation</h4>
+              <p class="text-sm leading-relaxed text-[#896168] dark:text-[#a5868c]">
+                Defining creative vision, silhouettes, and premium yarn selection.
               </p>
-              <div class="space-y-4">
-                <div class="flex items-center gap-3 text-text-main dark:text-white">
-                  <span class="material-symbols-outlined text-primary">mail</span>
-                  <span>orders@trusffle.com.au</span>
+              <div
+                class="absolute right-0 top-8 hidden h-[2px] w-full translate-x-1/2 bg-[#e6dbdd] dark:bg-[#3d2025] lg:block"
+              ></div>
+            </div>
+            <div class="relative flex flex-col items-center text-center">
+              <div
+                class="mb-6 flex size-16 items-center justify-center rounded-full bg-white dark:bg-[#3d2025] shadow-sm"
+              >
+                <span class="material-symbols-outlined text-primary text-3xl">architecture</span>
+              </div>
+              <h4 class="mb-2 text-lg font-bold">2. Prototyping</h4>
+              <p class="text-sm leading-relaxed text-[#896168] dark:text-[#a5868c]">
+                Precision sampling in our Italian atelier using cutting-edge Stoll machinery.
+              </p>
+              <div
+                class="absolute right-0 top-8 hidden h-[2px] w-full translate-x-1/2 bg-[#e6dbdd] dark:bg-[#3d2025] lg:block"
+              ></div>
+            </div>
+            <div class="relative flex flex-col items-center text-center">
+              <div
+                class="mb-6 flex size-16 items-center justify-center rounded-full bg-white dark:bg-[#3d2025] shadow-sm"
+              >
+                <span class="material-symbols-outlined text-primary text-3xl"
+                  >precision_manufacturing</span
+                >
+              </div>
+              <h4 class="mb-2 text-lg font-bold">3. Production</h4>
+              <p class="text-sm leading-relaxed text-[#896168] dark:text-[#a5868c]">
+                Scalable high-end manufacturing with meticulous quality control.
+              </p>
+              <div
+                class="absolute right-0 top-8 hidden h-[2px] w-full translate-x-1/2 bg-[#e6dbdd] dark:bg-[#3d2025] lg:block"
+              ></div>
+            </div>
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="mb-6 flex size-16 items-center justify-center rounded-full bg-white dark:bg-[#3d2025] shadow-sm"
+              >
+                <span class="material-symbols-outlined text-primary text-3xl">public</span>
+              </div>
+              <h4 class="mb-2 text-lg font-bold">4. Logistics</h4>
+              <p class="text-sm leading-relaxed text-[#896168] dark:text-[#a5868c]">
+                Direct, secure delivery to major Asian luxury hubs and distribution centers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Split Market Section -->
+      <section class="grid grid-cols-1 lg:grid-cols-2">
+        <!-- China Market -->
+        <div
+          class="group relative flex flex-col justify-center bg-white dark:bg-background-dark p-12 lg:p-24 overflow-hidden"
+        >
+          <div class="relative z-10">
+            <span
+              class="mb-4 inline-block text-xs font-bold uppercase tracking-[0.3em] text-primary"
+              >Greater China</span
+            >
+            <h3 class="mb-8 text-4xl font-extrabold">Agility for the Modern Silk Road</h3>
+            <ul class="space-y-6">
+              <li class="flex items-start gap-4">
+                <span class="material-symbols-outlined mt-1 text-primary">bolt</span>
+                <div>
+                  <p class="font-bold">Speed to Market</p>
+                  <p class="text-sm text-[#896168] dark:text-[#a5868c]">
+                    Rapid response timelines for luxury collections and limited drops.
+                  </p>
                 </div>
-                <div class="flex items-center gap-3 text-text-main dark:text-white">
-                  <span class="material-symbols-outlined text-primary">call</span>
-                  <span>+61 (08) 9123 4567</span>
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="material-symbols-outlined mt-1 text-primary">chat</span>
+                <div>
+                  <p class="font-bold">Seamless Communication</p>
+                  <p class="text-sm text-[#896168] dark:text-[#a5868c]">
+                    Dedicated team fluent in regional luxury logistics and WeChat-ready.
+                  </p>
                 </div>
-                <div class="flex items-center gap-3 text-text-main dark:text-white">
-                  <span class="material-symbols-outlined text-primary">location_on</span>
-                  <span>Manjimup, Western Australia</span>
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="material-symbols-outlined mt-1 text-primary">local_shipping</span>
+                <div>
+                  <p class="font-bold">Customs Expertise</p>
+                  <p class="text-sm text-[#896168] dark:text-[#a5868c]">
+                    White-glove import/export handling for tier-1 Chinese cities.
+                  </p>
                 </div>
+              </li>
+            </ul>
+            <button
+              class="mt-12 text-sm font-bold uppercase tracking-widest text-primary hover:underline underline-offset-8"
+            >
+              Explore China Partnership →
+            </button>
+          </div>
+          <div
+            class="absolute bottom-0 right-0 h-40 w-40 opacity-10 grayscale transition-all group-hover:grayscale-0 group-hover:opacity-20"
+          >
+            <img
+              alt="Shanghai Skyline"
+              data-location="Shanghai"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAv8igSoEupyRusqcOodQ91jnwwj3pv84ReFXRMvW0-DJ9Y81LKZyTzxLBG3CS_vXA4UFVK-lvU4YaPoVLnHYZLMGgo50izxxX35jZKSu5rEK3_i9p_alNKjPzSffTdqysuGCpYirWFnEiKgRMUMlfoiLrFwEDRMxCPaX-RyyCCc-5O4oF94-bH7CC4r3tFXTdhPkjqMOWAh-i4PPX7YYC1cnOTNsQcL1FZwoxI2XUQJY__9P9H9jAeD6ZB78pjDcdWAJl7ljbGqhgS"
+            />
+          </div>
+        </div>
+        <!-- Japan Market -->
+        <div
+          class="group relative flex flex-col justify-center bg-[#fdfafb] dark:bg-[#1f0d10] p-12 lg:p-24 overflow-hidden"
+        >
+          <div class="relative z-10">
+            <span
+              class="mb-4 inline-block text-xs font-bold uppercase tracking-[0.3em] text-primary"
+              >Japan</span
+            >
+            <h3 class="mb-8 text-4xl font-extrabold">Precision for the Discerning Eye</h3>
+            <ul class="space-y-6">
+              <li class="flex items-start gap-4">
+                <span class="material-symbols-outlined mt-1 text-primary">verified</span>
+                <div>
+                  <p class="font-bold">Total Quality Management</p>
+                  <p class="text-sm text-[#896168] dark:text-[#a5868c]">
+                    Stringent QC processes aligned with Japanese luxury standards.
+                  </p>
+                </div>
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="material-symbols-outlined mt-1 text-primary">brush</span>
+                <div>
+                  <p class="font-bold">Artisanal Alignment</p>
+                  <p class="text-sm text-[#896168] dark:text-[#a5868c]">
+                    Deep respect for Japanese minimalist design and craft philosophies.
+                  </p>
+                </div>
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="material-symbols-outlined mt-1 text-primary">support_agent</span>
+                <div>
+                  <p class="font-bold">Local Support</p>
+                  <p class="text-sm text-[#896168] dark:text-[#a5868c]">
+                    Dedicated account management for Tokyo and Osaka fashion districts.
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <button
+              class="mt-12 text-sm font-bold uppercase tracking-widest text-primary hover:underline underline-offset-8"
+            >
+              Explore Japan Partnership →
+            </button>
+          </div>
+          <div
+            class="absolute bottom-0 right-0 h-40 w-40 opacity-10 grayscale transition-all group-hover:grayscale-0 group-hover:opacity-20"
+          >
+            <img
+              alt="Tokyo Street"
+              data-location="Tokyo"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUVE4HUeGSbD7zniskcqC_2a_SYh_Jr2wpaQvBprnjghmYpxZqP01j3YFiDFOaGmzzGlCsw1uRH_uGGnxNGcrhKTneJsDgG7ELEOo6Wjn6Kv-iAl6KwyQQbpaC-Lc2_-LVEtX1Aaw6g4qAMu5tK8GPdTRCSCLAJpQPUrF4I61iw3COvpE3oxF-Z-bDVSthJa2OS3cfLN-OczG0CpRatMQTWoitb79jHj_3QDWuqwbRsMxPGiRSEee4rIYGCM10WKnaFbEgMWudsVki"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- B2B Lead Capture -->
+      <section class="mx-auto max-w-[1200px] px-6 py-24">
+        <div class="flex flex-col gap-16 lg:flex-row">
+          <div class="lg:w-1/3">
+            <h2 class="text-4xl font-extrabold leading-tight">
+              Begin Your <br />
+              Italian Chapter
+            </h2>
+            <p class="mt-6 text-lg text-[#896168] dark:text-[#a5868c]">
+              Connect with our production experts to discuss your collection's scale, yarn
+              requirements, and target markets.
+            </p>
+            <div class="mt-10 space-y-4">
+              <div class="flex items-center gap-4">
+                <span class="material-symbols-outlined text-primary">mail</span>
+                <span class="font-bold">production@maglificiopini.it</span>
+              </div>
+              <div class="flex items-center gap-4">
+                <span class="material-symbols-outlined text-primary">call</span>
+                <span class="font-bold">+39 0543 123456</span>
               </div>
             </div>
-            <div
-              class="flex-1 bg-white dark:bg-black/20 rounded-2xl p-6 border border-border-color dark:border-white/5"
-            >
-              <form class="flex flex-col gap-4">
-                <div>
-                  <label
-                    class="block text-xs font-bold uppercase text-text-muted dark:text-gray-500 mb-1"
-                    >Company Name</label
-                  >
-                  <input
-                    class="w-full rounded-lg border-border-color bg-background-light dark:bg-white/5 px-4 py-2 text-text-main dark:text-white focus:border-primary focus:ring-primary"
-                    placeholder="e.g. Restaurant Tokyo"
-                    type="text"
-                  />
-                </div>
-                <div>
-                  <label
-                    class="block text-xs font-bold uppercase text-text-muted dark:text-gray-500 mb-1"
-                    >Email</label
-                  >
-                  <input
-                    class="w-full rounded-lg border-border-color bg-background-light dark:bg-white/5 px-4 py-2 text-text-main dark:text-white focus:border-primary focus:ring-primary"
-                    placeholder="chef@example.com"
-                    type="email"
-                  />
-                </div>
-                <button
-                  class="mt-2 w-full rounded-full bg-primary py-3 text-sm font-bold text-primary-content hover:bg-[#eae605] transition-colors"
-                  type="button"
+          </div>
+          <div class="flex-1 rounded-xl bg-white dark:bg-[#2a1619] p-8 shadow-xl lg:p-12">
+            <form class="grid grid-cols-1 gap-6 md:grid-cols-2">
+              <div class="flex flex-col gap-2">
+                <label
+                  class="text-xs font-bold uppercase tracking-wider text-[#896168] dark:text-[#a5868c]"
+                  >Company Name</label
                 >
-                  Send Inquiry
+                <input
+                  class="rounded-lg border-[#e6dbdd] dark:border-[#3d2025] dark:bg-background-dark focus:border-primary focus:ring-primary"
+                  placeholder="Luxury Fashion Group"
+                  type="text"
+                />
+              </div>
+              <div class="flex flex-col gap-2">
+                <label
+                  class="text-xs font-bold uppercase tracking-wider text-[#896168] dark:text-[#a5868c]"
+                  >Market Interest</label
+                >
+                <select
+                  class="rounded-lg border-[#e6dbdd] dark:border-[#3d2025] dark:bg-background-dark focus:border-primary focus:ring-primary"
+                >
+                  <option>Greater China</option>
+                  <option>Japan</option>
+                  <option>Both Markets</option>
+                  <option>Other / Global</option>
+                </select>
+              </div>
+              <div class="flex flex-col gap-2">
+                <label
+                  class="text-xs font-bold uppercase tracking-wider text-[#896168] dark:text-[#a5868c]"
+                  >Professional Email</label
+                >
+                <input
+                  class="rounded-lg border-[#e6dbdd] dark:border-[#3d2025] dark:bg-background-dark focus:border-primary focus:ring-primary"
+                  placeholder="name@company.com"
+                  type="email"
+                />
+              </div>
+              <div class="flex flex-col gap-2">
+                <label
+                  class="text-xs font-bold uppercase tracking-wider text-[#896168] dark:text-[#a5868c]"
+                  >Project Volume</label
+                >
+                <select
+                  class="rounded-lg border-[#e6dbdd] dark:border-[#3d2025] dark:bg-background-dark focus:border-primary focus:ring-primary"
+                >
+                  <option>Small Batch (Artisanal)</option>
+                  <option>Mid-Scale (1000+ pieces)</option>
+                  <option>Large Scale (5000+ pieces)</option>
+                </select>
+              </div>
+              <div class="flex flex-col gap-2 md:col-span-2">
+                <label
+                  class="text-xs font-bold uppercase tracking-wider text-[#896168] dark:text-[#a5868c]"
+                  >Your Requirements</label
+                >
+                <textarea
+                  class="rounded-lg border-[#e6dbdd] dark:border-[#3d2025] dark:bg-background-dark focus:border-primary focus:ring-primary"
+                  placeholder="Tell us about your seasonal needs..."
+                  rows="4"
+                ></textarea>
+              </div>
+              <div class="md:col-span-2">
+                <button
+                  class="w-full rounded-lg bg-primary py-4 text-sm font-bold uppercase tracking-[0.2em] text-white shadow-lg shadow-primary/20 transition-transform hover:-translate-y-1 active:scale-[0.98]"
+                  type="submit"
+                >
+                  Request Consultation
                 </button>
-              </form>
-            </div>
+              </div>
+            </form>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
   </div>
 </template>

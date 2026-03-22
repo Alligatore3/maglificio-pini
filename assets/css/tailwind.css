@@ -12,7 +12,7 @@
   .material-symbols-outlined {
     font-variation-settings:
       'FILL' 0,
-      'wght' 400,
+      'wght' 300,
       'GRAD' 0,
       'opsz' 24;
   }
@@ -22,7 +22,7 @@
   }
 
   header a.active {
-    @apply font-semibold text-primary-content dark:text-primary;
+    @apply font-semibold text-primary;
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;

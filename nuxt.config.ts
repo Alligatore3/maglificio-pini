@@ -11,14 +11,14 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Trusffle - Premium Australian Truffles',
+      title: 'Maglificio Pini | Premium Made in Italy Knitwear',
       htmlAttrs: {
         lang: 'en',
       },
       meta: [
         {
           name: 'description',
-          content: 'Premium Australian Truffles for the Japanese market',
+          content: 'Premium Made in Italy Knitwear',
         },
         {
           name: 'viewport',
@@ -37,11 +37,11 @@ export default defineNuxtConfig({
         },
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Spline+Sans:wght@300;400;500;600;700&display=swap',
+          href: 'https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap',
         },
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap',
+          href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap',
         },
       ],
     },
