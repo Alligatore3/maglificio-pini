@@ -9,7 +9,7 @@
           style="
             background-image:
               linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 100%),
-              url('https://lh3.googleusercontent.com/aida-public/AB6AXuCscN0olCRoRamNi6T7kpFRGYIIxGO5zYPJjdNhaVqk_w8BvYmF0NxrEJQEd1PazS-il7u4VLzC6cCdmWQmaKHflyZwZu7mohJq7-avAVMaDqXxPvxVpW6OxP6lYOTzoKsiIpEaXrCwBnngM-IaXWat_l9t3r3BfGtyhvGJeKAikuElvcL9I1LYq0RDssQir2r_CNsAIVZFMFSAbwQRnR_rlVNbJ-nMvhG5RPcZJJQHTE_5sFWSsDw56cs982cdsQz9dp65kn54sdtl');
+              url('/images/excellence-in-knitwear.jpg');
           "
         ></div>
         <div class="relative z-10 flex h-full items-center justify-center px-6 text-center">

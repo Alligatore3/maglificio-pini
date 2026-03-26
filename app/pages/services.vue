@@ -7,7 +7,7 @@
           class="aspect-[4/5] bg-slate-200 dark:bg-slate-800 rounded-xl overflow-hidden shadow-2xl"
           data-alt="Italian artisan operating a modern Stoll knitting machine"
           style="
-            background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCj8f77DR35VP4Rz30CivjLgYw2fzEbfParetm0R9IcxZxQMQ_o1ke3TIy2QYT0oaHp0E1CjcdZ0eKYOxouGYVCknteiYENMlIVlT-zrNTTjfwv5lcsA1Kj7Wc1oMiQaQv_11G2tbsCk3sb5pygEoVTRFKfyR3QiRsYqVTUUDYq4slaeMW8ON3v6J3j7CKB9ud1Go8UdIneaKT--2qfCovyfRNdJOyorH6a5Fk6h5c5ZUNm9D0d_Ie8LAGC0r7z4wUOu6C0gf4R1Pld');
+            background-image: url('/images/craftsmanship.jpg');
             background-size: cover;
             background-position: center;
           "
@@ -67,7 +67,7 @@
             class="aspect-video mb-8 rounded-xl overflow-hidden bg-slate-100 dark:bg-slate-900"
             data-alt="Organized archive of high-quality luxury wool yarns"
             style="
-              background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD3C-Cwj-qPIdTkDwHy3sdC3bAKlQrKzCgKTLdBnA1jnXH17wqthH9sCFHSzSzUfNK8EzMZpYC-mEV3waGyTtkmz6_c6ypO7WW5EqIGLpkXBECe1-uGqgtHVSWf2YTKLoevkkDvm4E-DFp7zIj3guYRBSdK6u9ly1W_fmVaqWvDjxUjZqAK-6DkrWKpEzmbmgsAKvBClY7ik0N0WVB0iKc2hxrK2-5TPhNwx62PAbbx09Gdgpo482HF4IlX2lBS6TxzmKbsSk5JPY6D');
+              background-image: url('/images/creative-research.jpg');
               background-size: cover;
               background-position: center;
             "
@@ -88,7 +88,7 @@
             class="aspect-video mb-8 rounded-xl overflow-hidden bg-slate-100 dark:bg-slate-900"
             data-alt="Close up of precision knitting needles working on silk"
             style="
-              background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC6ZtiQLFhbHoXtoPsltlJTO0TzeHsjsMZKswIAZbZKYcUX4dYL1DA_Ld49iZzH0t1Sy_8MD9DQSTn8tCq4Z8_CsOHN59gQHxFkReez-F0Q9dBoVgCiHyDBIdD4b3KOUWO24Ro1_hDQ64szAkO2ZJ4O7q_WBw9DYQtJ1cnYDg3G3ieomk0XC4YsGa1LFE43WT6yW18tjU2Db2eE0Sfc2LPAbB38w-0GEt5NDmt8LEz3sc7CcAf9Ow5N39EwrE55k4RO5WcYJC14uuXD');
+              background-image: url('/images/precision-sampling.jpg');
               background-size: cover;
               background-position: center;
             "
@@ -108,7 +108,7 @@
             class="aspect-video mb-8 rounded-xl overflow-hidden bg-slate-100 dark:bg-slate-900"
             data-alt="Symmetrical view of a high-tech textile factory floor"
             style="
-              background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBO9YEuHbhkK7Z1jWRPEzjfqWxKOOCgP_CNjNCBGhcTSbflnMaVdRmVnIQOy91EfnD6TJvh3sf6jscnWGaRVHVurenH0HnFRxZIQiGQVdAFjN-BCXRXPYEiUyxtlvq1UtmfpElqkZP-gmSWw6e3qbd6jMG83czjgleA2Kql5lmZrWwhNr0S4hHM2bDhbhTmmlT7CeJ9p33l1ZjlV5G5jC4G9GMDpJcXioFeWlxGtyWAvjhg-siaW66DL_mj1D5gSzR0BusuaxAWfYdI');
+              background-image: url('/images/scale-production.jpg');
               background-size: cover;
               background-position: center;
             "
@@ -181,7 +181,7 @@
             class="aspect-square bg-slate-100 dark:bg-slate-800 rounded-2xl overflow-hidden relative group"
             data-alt="Macro shot of intricate high-gauge knitted fabric structure"
             style="
-              background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCk01u_O4iiywO3BfsHek9UqTnF8atLQitqtmvhkiDQP629ZLfVbaCbyHAFL_xkaGYZjB1BaRMpDczU2a6ulC2vdG0wcl8YgNGaxPpmzfZMcM8zf60misWLzWZZ3IoOTsqPRqvfLlzlLzIZYyUoyFJi4qY7SoC27cg4b5TEoEncvwXq7cEx747x9fLbCYuoKMq1F9PAoVuEZX9yOkcX3x8B7h1l-PFJAjEBbbu5FGDPP_Y3TyEYsk7ELT0VPyVbHNmS1HbTzDDC3sdo');
+              background-image: url('/images/technical-infrastructure.jpg');
               background-size: cover;
               background-position: center;
             "

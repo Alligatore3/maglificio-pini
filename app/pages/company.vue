@@ -8,7 +8,7 @@
         style="
           background-image:
             linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%),
-            url('https://lh3.googleusercontent.com/aida-public/AB6AXuDJmvf0t0QxN13_y_-AFvc43Wl6FLgOmWBAuF_Yr8uh1QUsNwEpKMXBzF051GQ-_KmiFyT82V1qroATjwsgvt5IpTd26VteB50NftHLS244UCyWExteYTvR8up_qKpfW3lSs5mBA5K7f22-54S8x0izBgmmXUOLCmBgrHT96VkKc_OI7e_Q4LTzBwA5jGrDb7BHNJ95vLhFegP8UQlH7Y3TapULwyjmkqVJsbEqCu5fyOEWCdQysczm6tLEMNI4ScAB1RF5yfl4baek');
+            url('/images/company.jpg');
           background-size: cover;
           background-position: center;
         "
@@ -102,30 +102,22 @@
       <div
         class="rounded-lg bg-cover bg-center"
         data-alt="Close up of yarn spools"
-        style="
-          background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCQqsDGepfQWjvzd1k879HnZjX2EXqnG0ZDi08voumxf_tvxnMvIwT8wOaDd6dHi0Y_urOB_0P7NAX1_hl5maZV2Dq1tgqoBxWxRDskGLZXvl11pt7fBn790JOC7ENyItPfZ01v9-ELaAmx2O9Gqqv4-UJ0gEshUWUze-O35dxclz7Ue2i_m4IyNC_7z0wXW87oGm2ulVciIq7WvnFlGgc3I5wWU5DIja4IvITDK2cl93e1McXZe1dt2p_3wKxSDH0i0EC0d-X6okh4');
-        "
+        style="background-image: url('/images/slide-1.jpg')"
       ></div>
       <div
         class="rounded-lg bg-cover bg-center md:translate-y-8"
         data-alt="Hands working on a knitting machine"
-        style="
-          background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDWwS48qb_HpZOOqHI_9BcjEC47_mJ5gXB5q4mOC-y_EcwX1Q90h3etbyZ32YyOyZqMtsJLZ4dAJeVTNJC82cW8dpE3Qb3KjZcCrG_xFN7EVBhdUpeQjPuWUQPjN-uKsp7IjPUY-M-dAC9_HOjSM-tPSh2lELVtWcQuzuKHf3wpm9SQSFTlWWFXUj870817qtcUuHSXGdowHtTmhDWBrbnt3CH7Ukbt-5Pu7tWOtIP9AYxhknSbwn7uGKtCPnv-_ZRfRzfFYKrNfdBq');
-        "
+        style="background-image: url('/images/slide-2.jpg')"
       ></div>
       <div
         class="rounded-lg bg-cover bg-center"
         data-alt="Italian fashion atelier details"
-        style="
-          background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCpj5bc1vhoVUVvo2r52U-du3ORSBbpAYXmJEDFoJAEtw4CTrHJRs3zNcV7wu2KbvMCVyoaQShX0S475ELHsB08NwSLPj5YRE0nCRNiUV0K1ANIudIp1Sw0tMQnpNRF9TRNCFO0lPpsjr0rJT93cQdyKLYSqJi6_vhfY_ZoO6KD4cE7XFlopLgno5TziJSjdFa18WcJmrDsAOeykFD1s8dVBfJ_ugmhkDzV40ybtu4jXhP2TmKsEbieauWRNrtQjeAk_K6OnGE0teED');
-        "
+        style="background-image: url('/images/slide-3.jpg')"
       ></div>
       <div
         class="rounded-lg bg-cover bg-center md:translate-y-8"
         data-alt="Luxury fabric texture grey"
-        style="
-          background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDdYPJKuUGGEUDC42kkG2-9EZkDsVl_avfTHLVwIqt35ZU8f3L-0wUvt5idTEobTwz-jBwA1w6iVgB-7X5_F6sKBqQn8ALzepsTcTeUG_1VRHTJHarWuTzWCbtNVt20ovpqFXEk4Ssh3XRjdQGjwEFKIiJQw_55MrmWk2V-T-53Ei4gADpMcxcZb5YmvOfYjATWnfm4Si6DtV8uPZXoARIDgd_7GnSfUpyqhWpR4ort30zHgmZIsEp4u5OlJX0amuKzKk2tmhgtjYhQ');
-        "
+        style="background-image: url('/images/slide-4.jpg')"
       ></div>
     </div>
   </section>
