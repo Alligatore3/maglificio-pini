@@ -11,8 +11,8 @@ export default {
         lg: '54rem',
       },
       colors: {
-        primary: '#d41132',
-        'background-light': '#f8f6f6',
+        primary: '#126EB3',
+        'background-light': '#e6e4e2',
         'background-dark': '#221013',
       },
       fontFamily: {

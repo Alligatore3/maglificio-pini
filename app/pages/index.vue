@@ -89,7 +89,7 @@
           <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
             <div class="relative flex flex-col items-center text-center">
               <div
-                class="mb-6 flex size-16 items-center justify-center rounded-full bg-white dark:bg-[#3d2025] shadow-sm"
+                class="mb-6 flex size-16 items-center justify-center rounded-full bg-white dark:bg-[#3d2025] shadow-sm z-10"
               >
                 <span class="material-symbols-outlined text-primary text-3xl">lightbulb</span>
               </div>
@@ -103,7 +103,7 @@
             </div>
             <div class="relative flex flex-col items-center text-center">
               <div
-                class="mb-6 flex size-16 items-center justify-center rounded-full bg-white dark:bg-[#3d2025] shadow-sm"
+                class="mb-6 flex size-16 items-center justify-center rounded-full bg-white dark:bg-[#3d2025] shadow-sm z-10"
               >
                 <span class="material-symbols-outlined text-primary text-3xl">architecture</span>
               </div>
@@ -117,7 +117,7 @@
             </div>
             <div class="relative flex flex-col items-center text-center">
               <div
-                class="mb-6 flex size-16 items-center justify-center rounded-full bg-white dark:bg-[#3d2025] shadow-sm"
+                class="mb-6 flex size-16 items-center justify-center rounded-full bg-white dark:bg-[#3d2025] shadow-sm z-10"
               >
                 <span class="material-symbols-outlined text-primary text-3xl"
                   >precision_manufacturing</span
@@ -133,7 +133,7 @@
             </div>
             <div class="flex flex-col items-center text-center">
               <div
-                class="mb-6 flex size-16 items-center justify-center rounded-full bg-white dark:bg-[#3d2025] shadow-sm"
+                class="mb-6 flex size-16 items-center justify-center rounded-full bg-white dark:bg-[#3d2025] shadow-sm z-10"
               >
                 <span class="material-symbols-outlined text-primary text-3xl">public</span>
               </div>
