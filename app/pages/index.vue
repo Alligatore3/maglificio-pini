@@ -2,7 +2,7 @@
   <div class="relative flex min-h-screen flex-col">
     <!-- Hero Section -->
     <main class="flex-1">
-      <section class="relative h-[85vh] w-full overflow-hidden">
+      <section class="relative h-[65vh] w-full overflow-hidden">
         <div
           class="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000"
           data-alt="Macro close-up of high-end Italian cashmere knitwear texture"
@@ -26,18 +26,6 @@
               <br class="hidden md:block" />
               across Shanghai, Tokyo, and beyond.
             </p>
-            <div class="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
-              <button
-                class="min-w-[220px] rounded-lg bg-primary py-4 text-sm font-bold uppercase tracking-widest text-white transition-all hover:scale-105 active:scale-95"
-              >
-                Focus on China
-              </button>
-              <button
-                class="min-w-[220px] rounded-lg bg-white/10 py-4 text-sm font-bold uppercase tracking-widest text-white backdrop-blur-md transition-all hover:bg-white/20"
-              >
-                Focus on Japan
-              </button>
-            </div>
           </div>
         </div>
       </section>
@@ -186,11 +174,12 @@
                 </div>
               </li>
             </ul>
-            <button
-              class="mt-12 text-sm font-bold uppercase tracking-widest text-primary hover:underline underline-offset-8"
+            <a
+              href="mailto:p.fugazzaro.noboco@gmail.com?subject=Greater China partnership — Maglificio Pini"
+              class="block cursor-pointer mt-12 text-sm font-bold uppercase tracking-widest text-primary hover:underline underline-offset-8"
             >
               Explore China Partnership →
-            </button>
+            </a>
           </div>
           <div
             class="absolute bottom-0 right-0 h-40 w-40 opacity-10 grayscale transition-all group-hover:grayscale-0 group-hover:opacity-20"
@@ -241,11 +230,12 @@
                 </div>
               </li>
             </ul>
-            <button
-              class="mt-12 text-sm font-bold uppercase tracking-widest text-primary hover:underline underline-offset-8"
+            <a
+              href="mailto:p.fugazzaro.noboco@gmail.com?subject=Japan partnership — Maglificio Pini"
+              class="block cursor-pointer mt-12 text-sm font-bold uppercase tracking-widest text-primary hover:underline underline-offset-8"
             >
               Explore Japan Partnership →
-            </button>
+            </a>
           </div>
           <div
             class="absolute bottom-0 right-0 h-40 w-40 opacity-10 grayscale transition-all group-hover:grayscale-0 group-hover:opacity-20"
@@ -273,86 +263,17 @@
             <div class="mt-10 space-y-4">
               <div class="flex items-center gap-4">
                 <span class="material-symbols-outlined text-primary">mail</span>
-                <span class="font-bold">production@maglificiopini.it</span>
+                <a href="mailto:production@maglificiopini.it" class="font-bold"
+                  >production@maglificiopini.it</a
+                >
               </div>
               <div class="flex items-center gap-4">
                 <span class="material-symbols-outlined text-primary">call</span>
-                <span class="font-bold">+39 0543 123456</span>
+                <a href="tel:+390543123456" class="font-bold">+39 0543 123456</a>
               </div>
             </div>
           </div>
-          <div class="flex-1 rounded-xl bg-white dark:bg-[#2a1619] p-8 shadow-xl lg:p-12">
-            <form class="grid grid-cols-1 gap-6 md:grid-cols-2">
-              <div class="flex flex-col gap-2">
-                <label
-                  class="text-xs font-bold uppercase tracking-wider text-[#896168] dark:text-[#a5868c]"
-                  >Company Name</label
-                >
-                <input
-                  class="rounded-lg border-[#e6dbdd] dark:border-[#3d2025] dark:bg-background-dark focus:border-primary focus:ring-primary"
-                  placeholder="Luxury Fashion Group"
-                  type="text"
-                />
-              </div>
-              <div class="flex flex-col gap-2">
-                <label
-                  class="text-xs font-bold uppercase tracking-wider text-[#896168] dark:text-[#a5868c]"
-                  >Market Interest</label
-                >
-                <select
-                  class="rounded-lg border-[#e6dbdd] dark:border-[#3d2025] dark:bg-background-dark focus:border-primary focus:ring-primary"
-                >
-                  <option>Greater China</option>
-                  <option>Japan</option>
-                  <option>Both Markets</option>
-                  <option>Other / Global</option>
-                </select>
-              </div>
-              <div class="flex flex-col gap-2">
-                <label
-                  class="text-xs font-bold uppercase tracking-wider text-[#896168] dark:text-[#a5868c]"
-                  >Professional Email</label
-                >
-                <input
-                  class="rounded-lg border-[#e6dbdd] dark:border-[#3d2025] dark:bg-background-dark focus:border-primary focus:ring-primary"
-                  placeholder="name@company.com"
-                  type="email"
-                />
-              </div>
-              <div class="flex flex-col gap-2">
-                <label
-                  class="text-xs font-bold uppercase tracking-wider text-[#896168] dark:text-[#a5868c]"
-                  >Project Volume</label
-                >
-                <select
-                  class="rounded-lg border-[#e6dbdd] dark:border-[#3d2025] dark:bg-background-dark focus:border-primary focus:ring-primary"
-                >
-                  <option>Small Batch (Artisanal)</option>
-                  <option>Mid-Scale (1000+ pieces)</option>
-                  <option>Large Scale (5000+ pieces)</option>
-                </select>
-              </div>
-              <div class="flex flex-col gap-2 md:col-span-2">
-                <label
-                  class="text-xs font-bold uppercase tracking-wider text-[#896168] dark:text-[#a5868c]"
-                  >Your Requirements</label
-                >
-                <textarea
-                  class="rounded-lg border-[#e6dbdd] dark:border-[#3d2025] dark:bg-background-dark focus:border-primary focus:ring-primary"
-                  placeholder="Tell us about your seasonal needs..."
-                  rows="4"
-                ></textarea>
-              </div>
-              <div class="md:col-span-2">
-                <button
-                  class="w-full rounded-lg bg-primary py-4 text-sm font-bold uppercase tracking-[0.2em] text-white shadow-lg shadow-primary/20 transition-transform hover:-translate-y-1 active:scale-[0.98]"
-                  type="submit"
-                >
-                  Request Consultation
-                </button>
-              </div>
-            </form>
-          </div>
+          <RequestConsultationForm />
         </div>
       </section>
     </main>
