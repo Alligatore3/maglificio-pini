@@ -8,15 +8,23 @@
       <Logo />
 
       <div class="flex gap-8 text-xs font-semibold text-[#896168] dark:text-[#a5868c]">
-        <NuxtLink class="hover:text-primary transition-colors" to="/"> Privacy Policy </NuxtLink>
-        <NuxtLink class="hover:text-primary transition-colors" to="/"> Terms of Trade </NuxtLink>
-        <NuxtLink class="hover:text-primary transition-colors" to="/">
-          Sustainability Report
+        <NuxtLink
+          to="https://maglificiopini.com/privacy-policy/"
+          class="hover:text-primary transition-colors"
+          target="_blank"
+        >
+          Privacy Policy
+        </NuxtLink>
+        <NuxtLink
+          to="https://maglificiopini.com/cookie-policy/"
+          class="hover:text-primary transition-colors"
+          target="_blank"
+        >
+          Cookie Policy
         </NuxtLink>
       </div>
-      <p class="text-xs text-[#896168] dark:text-[#a5868c]">
-        © 2024 Maglificio Pini. Handcrafted in Italy.
-      </p>
+
+      <p class="text-xs text-[#896168] dark:text-[#a5868c]">© 2026 2025 Maglificio Pini</p>
     </div>
   </footer>
 </template>

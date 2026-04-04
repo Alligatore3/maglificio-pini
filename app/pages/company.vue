@@ -21,18 +21,12 @@
             Crafting Italian excellence for the global avant-garde. Precision-engineered luxury from
             the heart of Italy.
           </p>
-          <div class="mt-4 flex flex-col sm:flex-row gap-4 justify-center">
-            <button
-              class="bg-primary text-white h-12 px-8 rounded-lg font-bold hover:bg-primary/90 transition-all"
-            >
-              Discover Our Story
-            </button>
-            <button
-              class="bg-white/10 backdrop-blur-md border border-white/20 text-white h-12 px-8 rounded-lg font-bold hover:bg-white/20 transition-all"
-            >
-              View Services
-            </button>
-          </div>
+          <NuxtLink
+            class="bg-white/10 w-fit mx-auto flex items-center backdrop-blur-md border border-white/20 text-white h-12 px-8 rounded-lg font-bold hover:bg-white/20 transition-all"
+            to="/services"
+          >
+            View Services
+          </NuxtLink>
         </div>
       </div>
     </div>
@@ -232,7 +226,7 @@
               scaled manufacturing capacity to meet the dynamic demands of the Chinese market
               without compromising Italian quality.
             </p>
-            <ul class="space-y-4 mb-10 text-sm font-medium">
+            <ul class="space-y-4 text-sm font-medium">
               <li class="flex items-center gap-3">
                 <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
                 Rapid logistics pipeline
@@ -246,11 +240,6 @@
                 Digital collaboration tools
               </li>
             </ul>
-            <button
-              class="mt-auto text-primary font-bold border-b border-primary/30 pb-1 w-fit hover:border-primary transition-all"
-            >
-              Learn More
-            </button>
           </div>
         </div>
         <!-- Japan Focus -->
@@ -270,7 +259,7 @@
               sustainability. Our Japan program emphasizes complete traceability and
               ultra-high-precision finishing techniques.
             </p>
-            <ul class="space-y-4 mb-10 text-sm font-medium">
+            <ul class="space-y-4 text-sm font-medium">
               <li class="flex items-center gap-3">
                 <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
                 GOTS & RWS Certifications
@@ -284,11 +273,6 @@
                 Long-term partnership focus
               </li>
             </ul>
-            <button
-              class="mt-auto text-primary font-bold border-b border-primary/30 pb-1 w-fit hover:border-primary transition-all"
-            >
-              Learn More
-            </button>
           </div>
         </div>
       </div>
@@ -306,18 +290,13 @@
         Our team is ready to discuss your specific production needs. Reach out for a consultation
         regarding our archive or manufacturing capacities.
       </p>
-      <div class="flex flex-col sm:flex-row gap-4 mt-4">
-        <button
-          class="bg-primary text-white h-14 px-10 rounded-xl font-bold text-lg hover:shadow-xl hover:shadow-primary/20 transition-all"
-        >
-          Inquire Now
-        </button>
-        <button
-          class="bg-white dark:bg-background-dark border border-[#e6dbdd] dark:border-[#3d2428] h-14 px-10 rounded-xl font-bold text-lg hover:bg-background-light dark:hover:bg-white/5 transition-all"
-        >
-          Contact Sales
-        </button>
-      </div>
+
+      <NuxtLink
+        class="bg-primary flex items-center text-white h-14 px-10 rounded-xl font-bold text-lg hover:shadow-xl hover:shadow-primary/20 transition-all"
+        to="/contacts"
+      >
+        Inquire Now
+      </NuxtLink>
     </div>
   </section>
 </template>

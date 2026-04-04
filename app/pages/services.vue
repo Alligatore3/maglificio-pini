@@ -35,16 +35,20 @@
           luxury brands. We bridge the gap between creative vision and technical reality.
         </p>
         <div class="flex flex-wrap gap-4 pt-4">
-          <button
+          <a
             class="bg-primary text-white px-8 py-4 rounded-lg font-bold hover:scale-[1.02] transition-transform"
+            href="/pdf/Maglificio-Pini-Technical-Fleet.pdf"
+            target="_blank"
           >
             Explore Technical Fleet
-          </button>
-          <button
+          </a>
+          <a
             class="border border-slate-300 dark:border-slate-700 px-8 py-4 rounded-lg font-bold hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+            href="/pdf/Maglificio-Pini-Portfolio.pdf"
+            target="_blank"
           >
             View Portfolio
-          </button>
+          </a>
         </div>
       </div>
     </section>
@@ -197,30 +201,13 @@
         </div>
       </div>
     </section>
-    <!-- CTA Section -->
+
     <section class="py-32 text-center">
       <h2 class="text-4xl md:text-5xl font-bold mb-8 italic">Partner with Excellence</h2>
       <p class="max-w-2xl mx-auto text-xl text-slate-600 dark:text-slate-400 mb-12">
         We invite global luxury brands to explore our facility in Forli or arrange a virtual tour of
         our technical laboratory.
       </p>
-      <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
-        <a
-          class="flex items-center gap-2 text-primary font-bold text-lg hover:underline decoration-2 underline-offset-8"
-          href="#"
-        >
-          Request Machine List
-          <span class="material-symbols-outlined">download</span>
-        </a>
-        <span class="hidden sm:block text-slate-300 dark:text-slate-700">|</span>
-        <a
-          class="flex items-center gap-2 text-primary font-bold text-lg hover:underline decoration-2 underline-offset-8"
-          href="#"
-        >
-          Contact Sales
-          <span class="material-symbols-outlined">arrow_forward</span>
-        </a>
-      </div>
     </section>
   </div>
 </template>
