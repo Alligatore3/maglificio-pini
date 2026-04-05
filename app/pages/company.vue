@@ -15,17 +15,16 @@
       >
         <div class="max-w-3xl flex flex-col gap-6">
           <h1 class="text-white text-4xl md:text-6xl font-black leading-tight tracking-tight">
-            A luxury knitwear partner built on expertise, archive, and ethics
+            {{ $t('pages.company.heroLuxury') }}
           </h1>
           <p class="text-white/80 text-lg md:text-xl font-light">
-            Crafting Italian excellence for the global avant-garde. Precision-engineered luxury from
-            the heart of Italy.
+            {{ $t('pages.company.heroLuxuryDescription') }}
           </p>
           <NuxtLink
             class="bg-white/10 w-fit mx-auto flex items-center backdrop-blur-md border border-white/20 text-white h-12 px-8 rounded-lg font-bold hover:bg-white/20 transition-all"
             to="/services"
           >
-            View Services
+            {{ $t('pages.company.viewServices') }}
           </NuxtLink>
         </div>
       </div>
@@ -34,7 +33,7 @@
   <!-- Pillars Section -->
   <section class="w-full max-w-[1200px] px-6 py-12 mx-auto">
     <h2 class="text-3xl md:text-4xl font-bold mb-12 border-l-4 border-primary pl-6">
-      Our Three Pillars
+      {{ $t('pages.company.ourThreePillars') }}
     </h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- Skill -->
@@ -47,10 +46,11 @@
           <span class="material-symbols-outlined text-3xl">precision_manufacturing</span>
         </div>
         <div class="flex flex-col gap-2">
-          <h3 class="text-xl font-bold">Skills</h3>
+          <h3 class="text-xl font-bold">
+            {{ $t('pages.company.skills') }}
+          </h3>
           <p class="text-[#896168] dark:text-[#a08489] leading-relaxed">
-            Advanced Shima Seiki technology combined with traditional hand-finishing expertise.
-            Every stitch is a testament to four decades of technical mastery.
+            {{ $t('pages.company.advancedShimaSeikiTechnology') }}
           </p>
         </div>
       </div>
@@ -64,10 +64,11 @@
           <span class="material-symbols-outlined text-3xl">auto_stories</span>
         </div>
         <div class="flex flex-col gap-2">
-          <h3 class="text-xl font-bold">Archive</h3>
+          <h3 class="text-xl font-bold">
+            {{ $t('pages.company.archive') }}
+          </h3>
           <p class="text-[#896168] dark:text-[#a08489] leading-relaxed">
-            A curated collection of over 40 years of knitwear history. Our physical archive serves
-            as a tactile encyclopedia for contemporary designers.
+            {{ $t('pages.company.curatedCollection') }}
           </p>
         </div>
       </div>
@@ -81,10 +82,11 @@
           <span class="material-symbols-outlined text-3xl">verified_user</span>
         </div>
         <div class="flex flex-col gap-2">
-          <h3 class="text-xl font-bold">Ethics</h3>
+          <h3 class="text-xl font-bold">
+            {{ $t('pages.company.ethics') }}
+          </h3>
           <p class="text-[#896168] dark:text-[#a08489] leading-relaxed">
-            Committed to sustainable sourcing and fair labor. We ensure traceable production cycles
-            that respect both artisans and environment.
+            {{ $t('pages.company.committedToSustainableSourcing') }}
           </p>
         </div>
       </div>
@@ -121,9 +123,11 @@
   >
     <div class="max-w-[960px] mx-auto">
       <div class="mb-12 text-center">
-        <h2 class="text-3xl font-bold mb-4">Production Services</h2>
+        <h2 class="text-3xl font-bold mb-4">
+          {{ $t('pages.company.productionServices') }}
+        </h2>
         <p class="text-[#896168] dark:text-[#a08489]">
-          Our end-to-end lifecycle for luxury knitwear creation.
+          {{ $t('pages.company.endToEndLifecycle') }}
         </p>
       </div>
       <div class="space-y-6">
@@ -137,10 +141,11 @@
             01
           </div>
           <div class="flex-1">
-            <h3 class="text-xl font-bold mb-2">Study & Research</h3>
+            <h3 class="text-xl font-bold mb-2">
+              {{ $t('pages.company.studyAndResearch') }}
+            </h3>
             <p class="text-[#896168] dark:text-[#a08489]">
-              Analysis of aesthetic trends, yarn selection from the world's finest spinning mills,
-              and stitch development.
+              {{ $t('pages.company.analysisOfAestheticTrends') }}
             </p>
           </div>
           <span
@@ -158,10 +163,11 @@
             02
           </div>
           <div class="flex-1">
-            <h3 class="text-xl font-bold mb-2">Samples & Prototyping</h3>
+            <h3 class="text-xl font-bold mb-2">
+              {{ $t('pages.company.samplesAndPrototyping') }}
+            </h3>
             <p class="text-[#896168] dark:text-[#a08489]">
-              Rapid prototyping of initial concepts. We refine fit and technical construction to
-              ensure absolute quality.
+              {{ $t('pages.company.rapidPrototyping') }}
             </p>
           </div>
           <span
@@ -179,10 +185,11 @@
             03
           </div>
           <div class="flex-1">
-            <h3 class="text-xl font-bold mb-2">Industrial Production</h3>
+            <h3 class="text-xl font-bold mb-2">
+              {{ $t('pages.company.industrialProduction') }}
+            </h3>
             <p class="text-[#896168] dark:text-[#a08489]">
-              Scaleable manufacturing with rigorous quality control, from automated knitting to
-              artisanal hand-assembly.
+              {{ $t('pages.company.scaleableManufacturing') }}
             </p>
           </div>
           <span
@@ -198,13 +205,14 @@
     <div class="max-w-[1200px] mx-auto px-6">
       <div class="flex flex-col md:flex-row justify-between items-end gap-6 mb-16">
         <div class="max-w-xl">
-          <span class="text-primary font-bold uppercase tracking-widest text-sm mb-4 block"
-            >Regional Expertise</span
-          >
-          <h2 class="text-4xl md:text-5xl font-black">Asia Programs</h2>
+          <span class="text-primary font-bold uppercase tracking-widest text-sm mb-4 block">
+            {{ $t('pages.company.regionalExpertise') }}
+          </span>
+          <h2 class="text-4xl md:text-5xl font-black">
+            {{ $t('pages.company.asiaPrograms') }}
+          </h2>
           <p class="mt-4 text-white/70 text-lg">
-            Specialized logistics and production strategies tailored for the unique demands of East
-            Asian luxury markets.
+            {{ $t('pages.company.specializedLogisticsAndProductionStrategies') }}
           </p>
         </div>
       </div>
@@ -219,25 +227,25 @@
           >
             <div class="flex items-center gap-4 mb-6">
               <span class="material-symbols-outlined text-primary text-4xl">rocket_launch</span>
-              <h3 class="text-2xl font-bold">China Focus: Speed & Scale</h3>
+              <h3 class="text-2xl font-bold">
+                {{ $t('pages.company.chinaFocus') }}
+              </h3>
             </div>
             <p class="text-white/60 mb-8 leading-relaxed">
-              Tailored for high-growth luxury portfolios. We offer agile development cycles and
-              scaled manufacturing capacity to meet the dynamic demands of the Chinese market
-              without compromising Italian quality.
+              {{ $t('pages.company.chinaFocusDescription') }}
             </p>
             <ul class="space-y-4 text-sm font-medium">
               <li class="flex items-center gap-3">
                 <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-                Rapid logistics pipeline
+                {{ $t('pages.company.rapidLogisticsPipeline') }}
               </li>
               <li class="flex items-center gap-3">
                 <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-                High-volume capacity
+                {{ $t('pages.company.highVolumeCapacity') }}
               </li>
               <li class="flex items-center gap-3">
                 <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-                Digital collaboration tools
+                {{ $t('pages.company.digitalCollaborationTools') }}
               </li>
             </ul>
           </div>
@@ -252,25 +260,25 @@
           >
             <div class="flex items-center gap-4 mb-6">
               <span class="material-symbols-outlined text-primary text-4xl">high_quality</span>
-              <h3 class="text-2xl font-bold">Japan Focus: Precision & Ethics</h3>
+              <h3 class="text-2xl font-bold">
+                {{ $t('pages.company.japanFocus') }}
+              </h3>
             </div>
             <p class="text-white/60 mb-8 leading-relaxed">
-              Focused on the Japanese market's appreciation for technical perfection and
-              sustainability. Our Japan program emphasizes complete traceability and
-              ultra-high-precision finishing techniques.
+              {{ $t('pages.company.japanFocusDescription') }}
             </p>
             <ul class="space-y-4 text-sm font-medium">
               <li class="flex items-center gap-3">
                 <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-                GOTS & RWS Certifications
+                {{ $t('pages.company.gots') }}
               </li>
               <li class="flex items-center gap-3">
                 <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-                Precision hand-finishing
+                {{ $t('pages.company.precisionHandFinishing') }}
               </li>
               <li class="flex items-center gap-3">
                 <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-                Long-term partnership focus
+                {{ $t('pages.company.longTermPartnershipFocus') }}
               </li>
             </ul>
           </div>
@@ -284,18 +292,17 @@
       class="bg-primary/5 rounded-3xl p-12 md:p-20 flex flex-col items-center gap-8 border border-primary/10"
     >
       <h2 class="text-3xl md:text-5xl font-black max-w-2xl leading-tight">
-        Ready to start your next luxury collection?
+        {{ $t('pages.company.readyToStartYourNextLuxuryCollection') }}
       </h2>
       <p class="text-lg text-[#896168] dark:text-[#a08489] max-w-xl">
-        Our team is ready to discuss your specific production needs. Reach out for a consultation
-        regarding our archive or manufacturing capacities.
+        {{ $t('pages.company.ourTeamIsReadyToDiscussYourSpecificProductionNeeds') }}
       </p>
 
       <NuxtLink
         class="bg-primary flex items-center text-white h-14 px-10 rounded-xl font-bold text-lg hover:shadow-xl hover:shadow-primary/20 transition-all"
         to="/contacts"
       >
-        Inquire Now
+        {{ $t('pages.company.inquireNow') }}
       </NuxtLink>
     </div>
   </section>

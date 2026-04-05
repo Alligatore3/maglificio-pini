@@ -45,8 +45,6 @@
         "yourRequirements": "Your Requirements",
         "requestConsultation": "Request Consultation",
         "placeholders": {
-          "companyName": "Official entity name",
-          "projectVolume": "Small Batch (Artisanal)",
           "placeholderCompanyName": "Luxury Fashion Group",
           "yourRequirements": "Tell us about your seasonal needs..."
         },
@@ -64,6 +62,42 @@
           }
         }
       }
+    },
+    "company": {
+      "heroLuxury": "A luxury knitwear partner built on expertise, archive, and ethics",
+      "heroLuxuryDescription": "Crafting Italian excellence for the global avant-garde. Precision-engineered luxury from the heart of Italy.",
+      "viewServices": "View Services",
+      "ourThreePillars": "Our Three Pillars",
+      "skills": "Skills",
+      "advancedShimaSeikiTechnology": "Advanced Shima Seiki technology combined with traditional hand-finishing expertise. Every stitch is a testament to four decades of technical mastery.",
+      "archive": "Archive",
+      "curatedCollection": "A curated collection of over 40 years of knitwear history. Our physical archive serves as a tactile encyclopedia for contemporary designers.",
+      "ethics": "Ethics",
+      "committedToSustainableSourcing": "Committed to sustainable sourcing and fair labor. We ensure traceable production cycles that respect both artisans and environment.",
+      "productionServices": "Production Services",
+      "endToEndLifecycle": "Our end-to-end lifecycle for luxury knitwear creation.",
+      "studyAndResearch": "Study & Research",
+      "analysisOfAestheticTrends": "Analysis of aesthetic trends, yarn selection from the world's finest spinning mills, and stitch development.",
+      "samplesAndPrototyping": "Samples & Prototyping",
+      "rapidPrototyping": "Rapid prototyping of initial concepts. We refine fit and technical construction to ensure absolute quality.",
+      "industrialProduction": "Industrial Production",
+      "scaleableManufacturing": "Scaleable manufacturing with rigorous quality control, from automated knitting to artisanal hand-assembly.",
+      "regionalExpertise": "Regional Expertise",
+      "asiaPrograms": "Asia Programs",
+      "specializedLogisticsAndProductionStrategies": "Specialized logistics and production strategies tailored for the unique demands of East Asian luxury markets.",
+      "chinaFocus": "China Focus: Speed & Scale",
+      "chinaFocusDescription": "Tailored for high-growth luxury portfolios. We offer agile development cycles and scaled manufacturing capacity to meet the dynamic demands of the Chinese market without compromising Italian quality.",
+      "japanFocus": "Japan Focus: Precision & Ethics",
+      "japanFocusDescription": "Focused on the Japanese market's appreciation for technical perfection and sustainability. Our Japan program emphasizes complete traceability and ultra-high-precision finishing techniques.",
+      "rapidLogisticsPipeline": "Rapid logistics pipeline",
+      "highVolumeCapacity": "High-volume capacity",
+      "digitalCollaborationTools": "Digital collaboration tools",
+      "gots": "GOTS & RWS Certifications",
+      "precisionHandFinishing": "Precision hand-finishing",
+      "longTermPartnershipFocus": "Long-term partnership focus",
+      "readyToStartYourNextLuxuryCollection": "Ready to start your next luxury collection?",
+      "ourTeamIsReadyToDiscussYourSpecificProductionNeeds": "Our team is ready to discuss your specific production needs. Reach out for a consultation regarding our archive or manufacturing capacities.",
+      "inquireNow": "Inquire Now"
     }
   }
 }
