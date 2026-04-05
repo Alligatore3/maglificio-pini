@@ -135,6 +135,33 @@
         "placeholderCompanyName": "Official entity name",
         "placeholderProjectScopeAndMessage": "Tell us about your collection needs, timeline, and yarn preferences..."
       }
+    },
+    "services": {
+      "hero": {
+        "innovationAndHeritage": "Innovation & Heritage",
+        "title": "The Nexus of Technology and Craftsmanship",
+        "description": "Where Italian artisanal heritage meets the pinnacle of knitting technology for global luxury brands. We bridge the gap between creative vision and technical reality.",
+        "exploreTechnicalFleet": "Explore Technical Fleet",
+        "viewPortfolio": "View Portfolio",
+        "ourServices": "Our Services",
+        "ourServicesDescription": "An end-to-end narrative of excellence in knitwear development, from initial yarn selection to global logistics.",
+        "creativeResearch": "Creative Research",
+        "creativeResearchDescription": "Deep exploration of yarn archives and stitch structures to define seasonal identities. We curate a vast library of technical solutions for the world's most demanding designers.",
+        "precisionSampling": "Precision Sampling",
+        "precisionSamplingDescription": "Translating complex designs into technical prototypes with meticulous attention to detail. Every gauge, tension, and finishing is calibrated to perfection.",
+        "scaleProduction": "Scale Production",
+        "scaleProductionDescription": "Flawless execution of high-gauge knitwear using our state-of-the-art manufacturing infrastructure. Consistency and quality control at the highest industrial standards.",
+        "technicalInfrastructure": "Technical Infrastructure",
+        "technicalInfrastructureDescription": "German precision engineering allowing for unprecedented pattern complexity and garment shaping. From 1.5 to 18 gauge capabilities.",
+        "technicalFleet": "The Stoll Fleet",
+        "shimaSeikiTechnology": "Shima Seiki Technology",
+        "shimaSeikiTechnologyDescription": "Advanced 3D WHOLEGARMENT® knitting that eliminates seams for superior comfort and minimal waste production.",
+        "creativeFreedom": "Creative Freedom",
+        "creativeFreedomDescription": "Our machines are not just tools, they are extensions of the designer's mind, capable of realizing any texture or silhouette.",
+        "viewTechnicalSpecs": "View Technical Specs",
+        "partnerWithExcellence": "Partner with Excellence",
+        "partnerWithExcellenceDescription": "We invite global luxury brands to explore our facility in Forli or arrange a virtual tour of our technical laboratory."
+      }
     }
   }
 }

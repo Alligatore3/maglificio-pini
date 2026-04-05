@@ -23,16 +23,13 @@
       </div>
       <div class="flex flex-col gap-8">
         <div class="space-y-4">
-          <span class="text-primary font-bold tracking-[0.2em] uppercase text-xs"
-            >Innovation & Heritage</span
-          >
-          <h1 class="text-5xl md:text-7xl font-bold leading-[1.1] tracking-tight">
-            The Nexus of Technology and Craftsmanship
-          </h1>
+          <span class="text-primary font-bold tracking-[0.2em] uppercase text-xs">
+            {{ $t('pages.services.hero.innovationAndHeritage') }}
+          </span>
+          <h1 class="text-5xl md:text-7xl font-bold leading-[1.1] tracking-tight"></h1>
         </div>
         <p class="text-xl text-slate-600 dark:text-slate-400 leading-relaxed font-light">
-          Where Italian artisanal heritage meets the pinnacle of knitting technology for global
-          luxury brands. We bridge the gap between creative vision and technical reality.
+          {{ $t('pages.services.hero.description') }}
         </p>
         <div class="flex flex-wrap gap-4 pt-4">
           <a
@@ -40,14 +37,14 @@
             href="/pdf/Maglificio-Pini-Technical-Fleet.pdf"
             target="_blank"
           >
-            Explore Technical Fleet
+            {{ $t('pages.services.hero.exploreTechnicalFleet') }}
           </a>
           <a
             class="border border-slate-300 dark:border-slate-700 px-8 py-4 rounded-lg font-bold hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
             href="/pdf/Maglificio-Pini-Portfolio.pdf"
             target="_blank"
           >
-            View Portfolio
+            {{ $t('pages.services.hero.viewPortfolio') }}
           </a>
         </div>
       </div>
@@ -56,10 +53,11 @@
     <section class="mb-32">
       <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
         <div class="max-w-2xl">
-          <h2 class="text-4xl font-bold mb-6">Our Services</h2>
+          <h2 class="text-4xl font-bold mb-6">
+            {{ $t('pages.services.hero.ourServices') }}
+          </h2>
           <p class="text-xl text-slate-600 dark:text-slate-400">
-            An end-to-end narrative of excellence in knitwear development, from initial yarn
-            selection to global logistics.
+            {{ $t('pages.services.hero.ourServicesDescription') }}
           </p>
         </div>
         <div class="hidden md:block h-px flex-1 bg-slate-200 dark:bg-slate-800 mx-12 mb-4"></div>
@@ -78,12 +76,10 @@
           ></div>
           <h3 class="text-2xl font-bold mb-4 flex items-center gap-3">
             <span class="material-symbols-outlined text-primary">search</span>
-            Creative Research
+            {{ $t('pages.services.hero.creativeResearch') }}
           </h3>
           <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
-            Deep exploration of yarn archives and stitch structures to define seasonal identities.
-            We curate a vast library of technical solutions for the world's most demanding
-            designers.
+            {{ $t('pages.services.hero.creativeResearchDescription') }}
           </p>
         </div>
         <!-- Sampling -->
@@ -99,11 +95,10 @@
           ></div>
           <h3 class="text-2xl font-bold mb-4 flex items-center gap-3">
             <span class="material-symbols-outlined text-primary">architecture</span>
-            Precision Sampling
+            {{ $t('pages.services.hero.precisionSampling') }}
           </h3>
           <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
-            Translating complex designs into technical prototypes with meticulous attention to
-            detail. Every gauge, tension, and finishing is calibrated to perfection.
+            {{ $t('pages.services.hero.precisionSamplingDescription') }}
           </p>
         </div>
         <!-- Production -->
@@ -119,11 +114,10 @@
           ></div>
           <h3 class="text-2xl font-bold mb-4 flex items-center gap-3">
             <span class="material-symbols-outlined text-primary">precision_manufacturing</span>
-            Scale Production
+            {{ $t('pages.services.hero.scaleProduction') }}
           </h3>
           <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
-            Flawless execution of high-gauge knitwear using our state-of-the-art manufacturing
-            infrastructure. Consistency and quality control at the highest industrial standards.
+            {{ $t('pages.services.hero.scaleProductionDescription') }}
           </p>
         </div>
       </div>
@@ -134,7 +128,9 @@
     >
       <div class="grid lg:grid-cols-2 gap-16 items-center">
         <div class="order-2 lg:order-1">
-          <h2 class="text-4xl font-bold mb-8">Technical Infrastructure</h2>
+          <h2 class="text-4xl font-bold mb-8">
+            {{ $t('pages.services.hero.technicalInfrastructure') }}
+          </h2>
           <div class="space-y-8">
             <div class="flex gap-6">
               <div
@@ -143,10 +139,11 @@
                 <span class="material-symbols-outlined text-primary">settings_suggest</span>
               </div>
               <div>
-                <h4 class="text-xl font-bold mb-2">The Stoll Fleet</h4>
+                <h4 class="text-xl font-bold mb-2">
+                  {{ $t('pages.services.hero.technicalFleet') }}
+                </h4>
                 <p class="text-slate-600 dark:text-slate-400">
-                  German precision engineering allowing for unprecedented pattern complexity and
-                  garment shaping. From 1.5 to 18 gauge capabilities.
+                  {{ $t('pages.services.hero.technicalInfrastructureDescription') }}
                 </p>
               </div>
             </div>
@@ -157,10 +154,11 @@
                 <span class="material-symbols-outlined text-primary">memory</span>
               </div>
               <div>
-                <h4 class="text-xl font-bold mb-2">Shima Seiki Technology</h4>
+                <h4 class="text-xl font-bold mb-2">
+                  {{ $t('pages.services.hero.shimaSeikiTechnology') }}
+                </h4>
                 <p class="text-slate-600 dark:text-slate-400">
-                  Advanced 3D WHOLEGARMENT® knitting that eliminates seams for superior comfort and
-                  minimal waste production.
+                  {{ $t('pages.services.hero.shimaSeikiTechnologyDescription') }}
                 </p>
               </div>
             </div>
@@ -171,10 +169,11 @@
                 <span class="material-symbols-outlined text-primary">verified</span>
               </div>
               <div>
-                <h4 class="text-xl font-bold mb-2">Creative Freedom</h4>
+                <h4 class="text-xl font-bold mb-2">
+                  {{ $t('pages.services.hero.creativeFreedom') }}
+                </h4>
                 <p class="text-slate-600 dark:text-slate-400">
-                  Our machines are not just tools, they are extensions of the designer's mind,
-                  capable of realizing any texture or silhouette.
+                  {{ $t('pages.services.hero.creativeFreedomDescription') }}
                 </p>
               </div>
             </div>
@@ -193,9 +192,9 @@
             <div
               class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-sm"
             >
-              <span class="text-white font-bold tracking-widest uppercase"
-                >View Technical Specs</span
-              >
+              <span class="text-white font-bold tracking-widest uppercase">
+                {{ $t('pages.services.hero.viewTechnicalSpecs') }}
+              </span>
             </div>
           </div>
         </div>
@@ -203,10 +202,11 @@
     </section>
 
     <section class="py-32 text-center">
-      <h2 class="text-4xl md:text-5xl font-bold mb-8 italic">Partner with Excellence</h2>
+      <h2 class="text-4xl md:text-5xl font-bold mb-8 italic">
+        {{ $t('pages.services.hero.partnerWithExcellence') }}
+      </h2>
       <p class="max-w-2xl mx-auto text-xl text-slate-600 dark:text-slate-400 mb-12">
-        We invite global luxury brands to explore our facility in Forli or arrange a virtual tour of
-        our technical laboratory.
+        {{ $t('pages.services.hero.partnerWithExcellenceDescription') }}
       </p>
     </section>
   </div>
