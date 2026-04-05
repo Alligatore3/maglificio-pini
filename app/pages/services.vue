@@ -26,7 +26,9 @@
           <span class="text-primary font-bold tracking-[0.2em] uppercase text-xs">
             {{ $t('pages.services.hero.innovationAndHeritage') }}
           </span>
-          <h1 class="text-5xl md:text-7xl font-bold leading-[1.1] tracking-tight"></h1>
+          <h1 class="text-5xl md:text-7xl font-bold leading-[1.1] tracking-tight">
+            {{ $t('pages.services.hero.innovationAndHeritageDescription') }}
+          </h1>
         </div>
         <p class="text-xl text-slate-600 dark:text-slate-400 leading-relaxed font-light">
           {{ $t('pages.services.hero.description') }}
