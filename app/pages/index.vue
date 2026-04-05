@@ -69,7 +69,7 @@
         <div class="mx-auto max-w-[1200px] px-6">
           <div class="mb-16 text-center">
             <h2 class="text-3xl font-extrabold tracking-tight lg:text-4xl">
-              How We Work: The Path to Perfection
+              {{ $t('pages.index.howWeWork') }}
             </h2>
             <div class="mx-auto mt-4 h-1 w-20 bg-primary"></div>
           </div>
@@ -80,9 +80,12 @@
               >
                 <span class="material-symbols-outlined text-primary text-3xl">lightbulb</span>
               </div>
-              <h4 class="mb-2 text-lg font-bold">1. Consultation</h4>
+              <h4 class="mb-2 text-lg font-bold">
+                1.
+                {{ $t('pages.index.consultation') }}
+              </h4>
               <p class="text-sm leading-relaxed text-[#896168] dark:text-[#a5868c]">
-                Defining creative vision, silhouettes, and premium yarn selection.
+                {{ $t('pages.index.consultationDescription') }}
               </p>
               <div
                 class="absolute right-0 top-8 hidden h-[2px] w-full translate-x-1/2 bg-[#e6dbdd] dark:bg-[#3d2025] lg:block"
@@ -94,9 +97,12 @@
               >
                 <span class="material-symbols-outlined text-primary text-3xl">architecture</span>
               </div>
-              <h4 class="mb-2 text-lg font-bold">2. Prototyping</h4>
+              <h4 class="mb-2 text-lg font-bold">
+                2.
+                {{ $t('pages.index.prototyping') }}
+              </h4>
               <p class="text-sm leading-relaxed text-[#896168] dark:text-[#a5868c]">
-                Precision sampling in our Italian atelier using cutting-edge Stoll machinery.
+                {{ $t('pages.index.prototypingDescription') }}
               </p>
               <div
                 class="absolute right-0 top-8 hidden h-[2px] w-full translate-x-1/2 bg-[#e6dbdd] dark:bg-[#3d2025] lg:block"
@@ -110,9 +116,12 @@
                   >precision_manufacturing</span
                 >
               </div>
-              <h4 class="mb-2 text-lg font-bold">3. Production</h4>
+              <h4 class="mb-2 text-lg font-bold">
+                3.
+                {{ $t('pages.index.production') }}
+              </h4>
               <p class="text-sm leading-relaxed text-[#896168] dark:text-[#a5868c]">
-                Scalable high-end manufacturing with meticulous quality control.
+                {{ $t('pages.index.productionDescription') }}
               </p>
               <div
                 class="absolute right-0 top-8 hidden h-[2px] w-full translate-x-1/2 bg-[#e6dbdd] dark:bg-[#3d2025] lg:block"
@@ -124,9 +133,12 @@
               >
                 <span class="material-symbols-outlined text-primary text-3xl">public</span>
               </div>
-              <h4 class="mb-2 text-lg font-bold">4. Logistics</h4>
+              <h4 class="mb-2 text-lg font-bold">
+                4.
+                {{ $t('pages.index.logistics') }}
+              </h4>
               <p class="text-sm leading-relaxed text-[#896168] dark:text-[#a5868c]">
-                Direct, secure delivery to major Asian luxury hubs and distribution centers.
+                {{ $t('pages.index.logisticsDescription') }}
               </p>
             </div>
           </div>
@@ -141,34 +153,44 @@
           <div class="relative z-10">
             <span
               class="mb-4 inline-block text-xs font-bold uppercase tracking-[0.3em] text-primary"
-              >Greater China</span
             >
-            <h3 class="mb-8 text-4xl font-extrabold">Agility for the Modern Silk Road</h3>
+              {{ $t('pages.index.greaterChina') }}
+            </span>
+
+            <h3 class="mb-8 text-4xl font-extrabold">
+              {{ $t('pages.index.greaterChinaDescription') }}
+            </h3>
             <ul class="space-y-6">
               <li class="flex items-start gap-4">
                 <span class="material-symbols-outlined mt-1 text-primary">bolt</span>
                 <div>
-                  <p class="font-bold">Speed to Market</p>
+                  <p class="font-bold">
+                    {{ $t('pages.index.greaterChinaSpeedToMarket') }}
+                  </p>
                   <p class="text-sm text-[#896168] dark:text-[#a5868c]">
-                    Rapid response timelines for luxury collections and limited drops.
+                    {{ $t('pages.index.greaterChinaSpeedToMarketDescription') }}
                   </p>
                 </div>
               </li>
               <li class="flex items-start gap-4">
                 <span class="material-symbols-outlined mt-1 text-primary">chat</span>
                 <div>
-                  <p class="font-bold">Seamless Communication</p>
+                  <p class="font-bold">
+                    {{ $t('pages.index.greaterChinaSeamlessCommunication') }}
+                  </p>
                   <p class="text-sm text-[#896168] dark:text-[#a5868c]">
-                    Dedicated team fluent in regional luxury logistics and WeChat-ready.
+                    {{ $t('pages.index.greaterChinaSeamlessCommunicationDescription') }}
                   </p>
                 </div>
               </li>
               <li class="flex items-start gap-4">
                 <span class="material-symbols-outlined mt-1 text-primary">local_shipping</span>
                 <div>
-                  <p class="font-bold">Customs Expertise</p>
+                  <p class="font-bold">
+                    {{ $t('pages.index.greaterChinaCustomsExpertise') }}
+                  </p>
                   <p class="text-sm text-[#896168] dark:text-[#a5868c]">
-                    White-glove import/export handling for tier-1 Chinese cities.
+                    {{ $t('pages.index.greaterChinaCustomsExpertiseDescription') }}
                   </p>
                 </div>
               </li>
@@ -197,34 +219,43 @@
           <div class="relative z-10">
             <span
               class="mb-4 inline-block text-xs font-bold uppercase tracking-[0.3em] text-primary"
-              >Japan</span
             >
-            <h3 class="mb-8 text-4xl font-extrabold">Precision for the Discerning Eye</h3>
+              {{ $t('pages.index.japan') }}
+            </span>
+            <h3 class="mb-8 text-4xl font-extrabold">
+              {{ $t('pages.index.japanDescription') }}
+            </h3>
             <ul class="space-y-6">
               <li class="flex items-start gap-4">
                 <span class="material-symbols-outlined mt-1 text-primary">verified</span>
                 <div>
-                  <p class="font-bold">Total Quality Management</p>
+                  <p class="font-bold">
+                    {{ $t('pages.index.japanTotalQualityManagement') }}
+                  </p>
                   <p class="text-sm text-[#896168] dark:text-[#a5868c]">
-                    Stringent QC processes aligned with Japanese luxury standards.
+                    {{ $t('pages.index.japanTotalQualityManagementDescription') }}
                   </p>
                 </div>
               </li>
               <li class="flex items-start gap-4">
                 <span class="material-symbols-outlined mt-1 text-primary">brush</span>
                 <div>
-                  <p class="font-bold">Artisanal Alignment</p>
+                  <p class="font-bold">
+                    {{ $t('pages.index.japanArtisanalAlignment') }}
+                  </p>
                   <p class="text-sm text-[#896168] dark:text-[#a5868c]">
-                    Deep respect for Japanese minimalist design and craft philosophies.
+                    {{ $t('pages.index.japanArtisanalAlignmentDescription') }}
                   </p>
                 </div>
               </li>
               <li class="flex items-start gap-4">
                 <span class="material-symbols-outlined mt-1 text-primary">support_agent</span>
                 <div>
-                  <p class="font-bold">Local Support</p>
+                  <p class="font-bold">
+                    {{ $t('pages.index.japanLocalSupport') }}
+                  </p>
                   <p class="text-sm text-[#896168] dark:text-[#a5868c]">
-                    Dedicated account management for Tokyo and Osaka fashion districts.
+                    {{ $t('pages.index.japanLocalSupportDescription') }}
                   </p>
                 </div>
               </li>
@@ -233,7 +264,7 @@
               href="mailto:p.fugazzaro.noboco@gmail.com?subject=Japan partnership — Maglificio Pini"
               class="block cursor-pointer mt-12 text-sm font-bold uppercase tracking-widest text-primary hover:underline underline-offset-8"
             >
-              Explore Japan Partnership →
+              {{ $t('pages.index.exploreJapanPartnership') }}
             </a>
           </div>
           <div
@@ -251,13 +282,12 @@
       <section class="mx-auto max-w-[1200px] px-6 py-24">
         <div class="flex flex-col gap-16 lg:flex-row">
           <div class="lg:w-1/3">
-            <h2 class="text-4xl font-extrabold leading-tight">
-              Begin Your <br />
-              Italian Chapter
-            </h2>
+            <h2
+              v-html="$t('pages.index.beginYourJourney')"
+              class="text-4xl font-extrabold leading-tight"
+            />
             <p class="mt-6 text-lg text-[#896168] dark:text-[#a5868c]">
-              Connect with our production experts to discuss your collection's scale, yarn
-              requirements, and target markets.
+              {{ $t('pages.index.beginYourJourneyDescription') }}
             </p>
             <div class="mt-10 space-y-4">
               <div class="flex items-center gap-4">
