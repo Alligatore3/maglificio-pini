@@ -98,6 +98,46 @@
       "readyToStartYourNextLuxuryCollection": "Ready to start your next luxury collection?",
       "ourTeamIsReadyToDiscussYourSpecificProductionNeeds": "Our team is ready to discuss your specific production needs. Reach out for a consultation regarding our archive or manufacturing capacities.",
       "inquireNow": "Inquire Now"
+    },
+    "contacts": {
+      "connectWithTheAtelier": "Connect with the <span class=\"text-primary italic\">Atelier</span>",
+      "ourExpertsAreReadyToTranslateYourVisionIntoExceptionalItalianKnitwear": "Our experts are ready to translate your vision into exceptional Italian knitwear. Reach out to discuss your next luxury collection.",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "fullName": "Full Name",
+      "businessEmail": "Business Email",
+      "brandPositioning": "Brand Positioning",
+      "companyName": "Company Name",
+      "officialWebsite": "Official Website",
+      "seasonalVolume": "Seasonal Volume",
+      "projectScopeAndMessage": "Project Scope & Message",
+      "submitInquiry": "Submit Inquiry",
+      "bySubmittingYouAgreeToOurPrivacyPolicyAndTheProcessingOfBusinessDataInAccordanceWithItalianGdprRegulations": "By submitting, you agree to our privacy policy and the processing of business data in accordance with Italian GDPR regulations.",
+      "submit": "Submit",
+      "options": {
+        "brandPositioning": {
+          "select": "Select Category",
+          "luxury": "Luxury / Couture",
+          "contemporary": "Contemporary / Bridge",
+          "emerging": "Emerging Designer",
+          "mass": "High Street Premium"
+        },
+        "seasonalVolume": {
+          "select": "Select Volume",
+          "sample": "Samples Only (Prototyping)",
+          "small": "50 - 200 units",
+          "medium": "200 - 1,000 units",
+          "large": "1,000+ units"
+        }
+      },
+      "placeholders": {
+        "placeholderFullName": "e.g. Alessandro Rossi",
+        "placeholderCompanyName": "Official entity name",
+        "placeholderBrandPositioning": "Select Category",
+        "placeholderSeasonalVolume": "Est. Units per season",
+        "placeholderProjectScopeAndMessage": "Tell us about your collection needs, timeline, and yarn preferences..."
+      }
     }
   }
 }

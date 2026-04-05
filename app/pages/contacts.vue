@@ -33,12 +33,16 @@ const submitForm = () => {
       <!-- Left Side: Contact Details & Map -->
       <div class="flex flex-2 flex-col space-y-12">
         <div>
-          <h2 class="text-4xl lg:text-5xl font-extrabold tracking-tighter mb-6 leading-tight">
-            Connect with the <span class="text-primary italic">Atelier</span>
-          </h2>
+          <h2
+            v-html="$t('pages.contacts.connectWithTheAtelier')"
+            class="text-4xl lg:text-5xl font-extrabold tracking-tighter mb-6 leading-tight"
+          />
           <p class="text-[#896168] dark:text-gray-400 text-lg leading-relaxed max-w-md">
-            Our experts are ready to translate your vision into exceptional Italian knitwear. Reach
-            out to discuss your next luxury collection.
+            {{
+              $t(
+                'pages.contacts.ourExpertsAreReadyToTranslateYourVisionIntoExceptionalItalianKnitwear'
+              )
+            }}
           </p>
         </div>
         <div class="space-y-1">
@@ -48,7 +52,7 @@ const submitForm = () => {
             <p
               class="text-[#896168] dark:text-gray-400 text-xs font-bold uppercase tracking-widest"
             >
-              Email
+              {{ $t('pages.contacts.email') }}
             </p>
             <a href="mailto:inquiry@maglificiopini.it" class="text-lg font-medium"
               >inquiry@maglificiopini.it</a
@@ -60,7 +64,7 @@ const submitForm = () => {
             <p
               class="text-[#896168] dark:text-gray-400 text-xs font-bold uppercase tracking-widest"
             >
-              Phone
+              {{ $t('pages.contacts.phone') }}
             </p>
             <a href="tel:+390543782111" class="text-lg font-medium">+39 0543 782111</a>
           </div>
@@ -70,7 +74,7 @@ const submitForm = () => {
             <p
               class="text-[#896168] dark:text-gray-400 text-xs font-bold uppercase tracking-widest"
             >
-              Address
+              {{ $t('pages.contacts.address') }}
             </p>
             <a
               href="https://maps.app.goo.gl/YYWjfB7K2HA4vShe7"
@@ -116,11 +120,12 @@ const submitForm = () => {
             <label class="flex flex-col gap-2">
               <span
                 class="text-xs font-bold uppercase tracking-widest text-[#896168] dark:text-gray-400"
-                >Full Name</span
               >
+                {{ $t('pages.contacts.fullName') }}
+              </span>
               <input
                 class="form-input w-full rounded-lg border-[#e6dbdd] dark:border-[#3d2a2d] dark:bg-transparent h-12 text-sm placeholder:text-[#896168]/50 focus:ring-primary focus:border-primary"
-                placeholder="e.g. Alessandro Rossi"
+                :placeholder="$t('pages.contacts.placeholders.placeholderFullName')"
                 v-model="form.name"
                 type="text"
                 required
@@ -129,8 +134,9 @@ const submitForm = () => {
             <label class="flex flex-col gap-2">
               <span
                 class="text-xs font-bold uppercase tracking-widest text-[#896168] dark:text-gray-400"
-                >Business Email</span
               >
+                {{ $t('pages.contacts.businessEmail') }}
+              </span>
               <input
                 class="form-input w-full rounded-lg border-[#e6dbdd] dark:border-[#3d2a2d] dark:bg-transparent h-12 text-sm placeholder:text-[#896168]/50 focus:ring-primary focus:border-primary"
                 placeholder="name@brand.com"
@@ -144,11 +150,12 @@ const submitForm = () => {
             <label class="flex flex-col gap-2">
               <span
                 class="text-xs font-bold uppercase tracking-widest text-[#896168] dark:text-gray-400"
-                >Company Name</span
               >
+                {{ $t('pages.contacts.companyName') }}
+              </span>
               <input
                 class="form-input w-full rounded-lg border-[#e6dbdd] dark:border-[#3d2a2d] dark:bg-transparent h-12 text-sm placeholder:text-[#896168]/50 focus:ring-primary focus:border-primary"
-                placeholder="Official entity name"
+                :placeholder="$t('pages.contacts.placeholders.placeholderCompanyName')"
                 v-model="form.company"
                 type="text"
                 required
@@ -157,8 +164,9 @@ const submitForm = () => {
             <label class="flex flex-col gap-2">
               <span
                 class="text-xs font-bold uppercase tracking-widest text-[#896168] dark:text-gray-400"
-                >Official Website</span
               >
+                {{ $t('pages.contacts.officialWebsite') }}
+              </span>
               <input
                 class="form-input w-full rounded-lg border-[#e6dbdd] dark:border-[#3d2a2d] dark:bg-transparent h-12 text-sm placeholder:text-[#896168]/50 focus:ring-primary focus:border-primary"
                 placeholder="https://www.brand.com"
@@ -172,46 +180,69 @@ const submitForm = () => {
             <label class="flex flex-col gap-2">
               <span
                 class="text-xs font-bold uppercase tracking-widest text-[#896168] dark:text-gray-400"
-                >Brand Positioning</span
               >
+                {{ $t('pages.contacts.brandPositioning') }}
+              </span>
               <select
                 class="form-input w-full rounded-lg border-[#e6dbdd] dark:border-[#3d2a2d] dark:bg-background-dark h-12 text-sm focus:ring-primary focus:border-primary"
                 v-model="form.category"
                 required
               >
-                <option disabled selected value="">Select Category</option>
-                <option value="luxury">Luxury / Couture</option>
-                <option value="contemporary">Contemporary / Bridge</option>
-                <option value="emerging">Emerging Designer</option>
-                <option value="mass">High Street Premium</option>
+                <option disabled selected value="">
+                  {{ $t('pages.contacts.options.brandPositioning.select') }}
+                </option>
+                <option value="luxury">
+                  {{ $t('pages.contacts.options.brandPositioning.luxury') }}
+                </option>
+                <option value="contemporary">
+                  {{ $t('pages.contacts.options.brandPositioning.contemporary') }}
+                </option>
+                <option value="emerging">
+                  {{ $t('pages.contacts.options.brandPositioning.emerging') }}
+                </option>
+                <option value="mass">
+                  {{ $t('pages.contacts.options.brandPositioning.mass') }}
+                </option>
               </select>
             </label>
             <label class="flex flex-col gap-2">
               <span
                 class="text-xs font-bold uppercase tracking-widest text-[#896168] dark:text-gray-400"
-                >Seasonal Volume</span
               >
+                {{ $t('pages.contacts.seasonalVolume') }}
+              </span>
               <select
                 class="form-input w-full rounded-lg border-[#e6dbdd] dark:border-[#3d2a2d] dark:bg-background-dark h-12 text-sm focus:ring-primary focus:border-primary"
                 v-model="form.volume"
                 required
               >
-                <option disabled selected value="">Est. Units per season</option>
-                <option value="sample">Samples Only (Prototyping)</option>
-                <option value="small">50 - 200 units</option>
-                <option value="medium">200 - 1,000 units</option>
-                <option value="large">1,000+ units</option>
+                <option disabled selected value="">
+                  {{ $t('pages.contacts.options.seasonalVolume.select') }}
+                </option>
+                <option value="sample">
+                  {{ $t('pages.contacts.options.seasonalVolume.sample') }}
+                </option>
+                <option value="small">
+                  {{ $t('pages.contacts.options.seasonalVolume.small') }}
+                </option>
+                <option value="medium">
+                  {{ $t('pages.contacts.options.seasonalVolume.medium') }}
+                </option>
+                <option value="large">
+                  {{ $t('pages.contacts.options.seasonalVolume.large') }}
+                </option>
               </select>
             </label>
           </div>
           <label class="flex flex-col gap-2">
             <span
               class="text-xs font-bold uppercase tracking-widest text-[#896168] dark:text-gray-400"
-              >Project Scope & Message</span
             >
+              {{ $t('pages.contacts.projectScopeAndMessage') }}
+            </span>
             <textarea
               class="form-input w-full rounded-lg border-[#e6dbdd] dark:border-[#3d2a2d] dark:bg-transparent text-sm placeholder:text-[#896168]/50 focus:ring-primary focus:border-primary"
-              placeholder="Tell us about your collection needs, timeline, and yarn preferences..."
+              :placeholder="$t('pages.contacts.placeholders.placeholderProjectScopeAndMessage')"
               v-model="form.message"
               rows="4"
               required
@@ -223,14 +254,17 @@ const submitForm = () => {
               class="w-full h-14 bg-primary text-white font-bold text-sm tracking-widest uppercase rounded-lg transition-all transform hover:scale-[1.01] flex items-center justify-center gap-2 shadow-lg shadow-primary/20"
               type="submit"
             >
-              Submit Inquiry
+              {{ $t('pages.contacts.submitInquiry') }}
               <span class="material-symbols-outlined text-lg">arrow_forward</span>
             </button>
             <p
               class="mt-4 text-[10px] text-center text-[#896168] dark:text-gray-500 leading-relaxed uppercase tracking-tighter"
             >
-              By submitting, you agree to our privacy policy and the processing of business data in
-              accordance with Italian GDPR regulations.
+              {{
+                $t(
+                  'pages.contacts.bySubmittingYouAgreeToOurPrivacyPolicyAndTheProcessingOfBusinessDataInAccordanceWithItalianGdprRegulations'
+                )
+              }}
             </p>
           </div>
         </form>
