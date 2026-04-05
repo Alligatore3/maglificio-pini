@@ -12,7 +12,7 @@
             active-class="active"
             to="/company"
           >
-            Company
+            {{ $t('header.company') }}
           </NuxtLink>
 
           <NuxtLink
@@ -20,7 +20,7 @@
             active-class="active"
             to="/services"
           >
-            Services
+            {{ $t('header.services') }}
           </NuxtLink>
         </div>
         <div class="flex items-center gap-4 border-l border-[#e6dbdd] dark:border-[#3d2025] pl-8">
@@ -29,7 +29,7 @@
             active-class="active"
             to="/contacts"
           >
-            Contacts us
+            {{ $t('header.contacts') }}
           </NuxtLink>
           <button
             class="text-xs font-bold text-[#896168] dark:text-[#a5868c] hover:text-primary transition-colors"

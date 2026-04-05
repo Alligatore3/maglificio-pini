@@ -1,4 +1,14 @@
 {
+  "header": {
+    "company": "Company",
+    "services": "Services",
+    "contacts": "Contacts"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy",
+    "copyright": "© 2026 2025 Maglificio Pini"
+  },
   "pages": {
     "index": {
       "heroKnitwear": "Excellence in Knitwear",

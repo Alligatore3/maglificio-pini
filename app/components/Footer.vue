@@ -13,18 +13,20 @@
           class="hover:text-primary transition-colors"
           target="_blank"
         >
-          Privacy Policy
+          {{ $t('footer.privacyPolicy') }}
         </NuxtLink>
         <NuxtLink
           to="https://maglificiopini.com/cookie-policy/"
           class="hover:text-primary transition-colors"
           target="_blank"
         >
-          Cookie Policy
+          {{ $t('footer.cookiePolicy') }}
         </NuxtLink>
       </div>
 
-      <p class="text-xs text-[#896168] dark:text-[#a5868c]">© 2026 2025 Maglificio Pini</p>
+      <p class="text-xs text-[#896168] dark:text-[#a5868c]">
+        {{ $t('footer.copyright') }}
+      </p>
     </div>
   </footer>
 </template>
