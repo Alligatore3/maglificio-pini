@@ -114,7 +114,6 @@
       "projectScopeAndMessage": "Project Scope & Message",
       "submitInquiry": "Submit Inquiry",
       "bySubmittingYouAgreeToOurPrivacyPolicyAndTheProcessingOfBusinessDataInAccordanceWithItalianGdprRegulations": "By submitting, you agree to our privacy policy and the processing of business data in accordance with Italian GDPR regulations.",
-      "submit": "Submit",
       "options": {
         "brandPositioning": {
           "select": "Select Category",
@@ -134,8 +133,6 @@
       "placeholders": {
         "placeholderFullName": "e.g. Alessandro Rossi",
         "placeholderCompanyName": "Official entity name",
-        "placeholderBrandPositioning": "Select Category",
-        "placeholderSeasonalVolume": "Est. Units per season",
         "placeholderProjectScopeAndMessage": "Tell us about your collection needs, timeline, and yarn preferences..."
       }
     }
