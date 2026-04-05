@@ -1,0 +1,14 @@
+{
+  "pages": {
+    "index": {
+      "heroKnitwear": "Excellence in Knitwear",
+      "heroMadeInItaly": "Made in Italy manufacturing <br class=\"hidden lg:block\" />for Asian luxury brands",
+      "corePillars": "Core Pillars",
+      "corePillarsDescription": "Craftsmanship, Tech, Design",
+      "archivePieces": "Archive Pieces",
+      "archivePiecesDescription": "Historical Italian Heritage",
+      "ethicalStandard": "Ethical Standard",
+      "ethicalStandardDescription": "Sustainability-First Production"
+    }
+  }
+}

@@ -15,17 +15,12 @@
         <div class="relative z-10 flex h-full items-center justify-center px-6 text-center">
           <div class="max-w-[900px]">
             <p class="mb-4 text-xs font-bold uppercase tracking-[0.4em] text-white/80">
-              Excellence in Knitwear
+              {{ $t('pages.index.heroKnitwear') }}
             </p>
-            <h1 class="text-5xl font-extrabold leading-[1.1] tracking-tight text-white lg:text-7xl">
-              Made in Italy manufacturing <br class="hidden lg:block" />
-              for Asian luxury brands
-            </h1>
-            <p class="mt-8 text-lg font-light leading-relaxed text-white/90 lg:text-xl">
-              Bridging Italian craftsmanship with the world's most discerning fashion houses
-              <br class="hidden md:block" />
-              across Shanghai, Tokyo, and beyond.
-            </p>
+            <h1
+              class="text-5xl font-extrabold leading-[1.1] tracking-tight text-white lg:text-7xl"
+              v-html="$t('pages.index.heroMadeInItaly')"
+            />
           </div>
         </div>
       </section>
@@ -39,28 +34,32 @@
           >
             <span class="text-5xl font-extrabold text-primary">3</span>
             <h3 class="text-sm font-bold uppercase tracking-widest text-[#181112] dark:text-white">
-              Core Pillars
+              {{ $t('pages.index.corePillars') }}
             </h3>
-            <p class="text-sm text-[#896168] dark:text-[#a5868c]">Craftsmanship, Tech, Design</p>
+            <p class="text-sm text-[#896168] dark:text-[#a5868c]">
+              {{ $t('pages.index.corePillarsDescription') }}
+            </p>
           </div>
           <div
             class="flex min-w-[200px] flex-1 flex-col items-center gap-1 text-center lg:items-start lg:text-left"
           >
             <span class="text-5xl font-extrabold text-primary">100+</span>
             <h3 class="text-sm font-bold uppercase tracking-widest text-[#181112] dark:text-white">
-              Archive Pieces
+              {{ $t('pages.index.archivePieces') }}
             </h3>
-            <p class="text-sm text-[#896168] dark:text-[#a5868c]">Historical Italian Heritage</p>
+            <p class="text-sm text-[#896168] dark:text-[#a5868c]">
+              {{ $t('pages.index.archivePiecesDescription') }}
+            </p>
           </div>
           <div
             class="flex min-w-[200px] flex-1 flex-col items-center gap-1 text-center lg:items-start lg:text-left"
           >
             <span class="text-5xl font-extrabold text-primary">1</span>
             <h3 class="text-sm font-bold uppercase tracking-widest text-[#181112] dark:text-white">
-              Ethical Standard
+              {{ $t('pages.index.ethicalStandard') }}
             </h3>
             <p class="text-sm text-[#896168] dark:text-[#a5868c]">
-              Sustainability-First Production
+              {{ $t('pages.index.ethicalStandardDescription') }}
             </p>
           </div>
         </div>

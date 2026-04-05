@@ -2,13 +2,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-
   vite: {
     optimizeDeps: {
       include: ['@vue/devtools-core', '@vue/devtools-kit'],
     },
   },
-
   app: {
     head: {
       title: 'Maglificio Pini | Premium Made in Italy Knitwear',
@@ -51,6 +49,22 @@ export default defineNuxtConfig({
       ],
     },
   },
-
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n'],
+  // @see https://i18n.nuxtjs.org/docs/getting-started/usage
+  i18n: {
+    defaultLocale: 'en',
+    locales: [
+      { code: 'en', name: '🇬🇧 English', file: 'en.json' },
+      { code: 'ja', name: '🇯🇵 Japanese', file: 'jp.json' },
+    ],
+    compilation: {
+      strictMessage: false,
+    },
+    // Enable browser language detection (override defaultLocale when possible)
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root', // only detect on '/' (recommended for SEO)
+    },
+  },
 })
