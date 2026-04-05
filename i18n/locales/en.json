@@ -36,7 +36,34 @@
       "japanLocalSupportDescription": "Dedicated account management for Tokyo and Osaka fashion districts.",
       "exploreJapanPartnership": "Explore Japan Partnership →",
       "beginYourJourney": "Begin Your <br /> Italian Chapter",
-      "beginYourJourneyDescription": "Connect with our production experts to discuss your collection's scale, yarn requirements, and target markets."
+      "beginYourJourneyDescription": "Connect with our production experts to discuss your collection's scale, yarn requirements, and target markets.",
+      "form": {
+        "companyName": "Company Name",
+        "marketInterest": "Market Interest",
+        "professionalEmail": "Professional Email",
+        "projectVolume": "Project Volume",
+        "yourRequirements": "Your Requirements",
+        "requestConsultation": "Request Consultation",
+        "placeholders": {
+          "companyName": "Official entity name",
+          "projectVolume": "Small Batch (Artisanal)",
+          "placeholderCompanyName": "Luxury Fashion Group",
+          "yourRequirements": "Tell us about your seasonal needs..."
+        },
+        "options": {
+          "marketInterest": {
+            "greater-china": "Greater China",
+            "japan": "Japan",
+            "both-markets": "Both Markets",
+            "other-global": "Other / Global"
+          },
+          "projectVolume": {
+            "small-batch": "Small Batch (Artisanal)",
+            "mid-scale": "Mid-Scale (1000+ pieces)",
+            "large-scale": "Large Scale (5000+ pieces)"
+          }
+        }
+      }
     }
   }
 }
