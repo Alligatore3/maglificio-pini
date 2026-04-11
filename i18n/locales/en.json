@@ -1,178 +1,186 @@
-{
-  "header": {
-    "company": "Company",
-    "services": "Services",
-    "contacts": "Contacts"
-  },
-  "footer": {
-    "privacyPolicy": "Privacy Policy",
-    "cookiePolicy": "Cookie Policy",
-    "copyright": "© 2026 2025 Maglificio Pini"
-  },
-  "pages": {
-    "index": {
-      "heroKnitwear": "Excellence in Knitwear",
-      "heroMadeInItaly": "Made in Italy manufacturing <br class=\"hidden lg:block\" />for Asian luxury brands",
-      "corePillars": "Core Pillars",
-      "corePillarsDescription": "Craftsmanship, Tech, Design",
-      "archivePieces": "Archive Pieces",
-      "archivePiecesDescription": "Historical Italian Heritage",
-      "ethicalStandard": "Ethical Standard",
-      "ethicalStandardDescription": "Sustainability-First Production",
-      "howWeWork": "How We Work: The Path to Perfection",
-      "consultation": "Consultation",
-      "consultationDescription": "Defining creative vision, silhouettes, and premium yarn selection.",
-      "prototyping": "Prototyping",
-      "prototypingDescription": "Precision sampling in our Italian atelier using cutting-edge Stoll machinery.",
-      "production": "Production",
-      "productionDescription": "Scalable high-end manufacturing with meticulous quality control.",
-      "logistics": "Logistics",
-      "logisticsDescription": "Direct, secure delivery to major Asian luxury hubs and distribution centers.",
-      "greaterChina": "Greater China",
-      "greaterChinaDescription": "Agility for the Modern Silk Road",
-      "greaterChinaSpeedToMarket": "Speed to Market",
-      "greaterChinaSpeedToMarketDescription": "Rapid response timelines for luxury collections and limited drops.",
-      "greaterChinaSeamlessCommunication": "Seamless Communication",
-      "greaterChinaSeamlessCommunicationDescription": "Dedicated team fluent in regional luxury logistics and WeChat-ready.",
-      "greaterChinaCustomsExpertise": "Customs Expertise",
-      "greaterChinaCustomsExpertiseDescription": "White-glove import/export handling for tier-1 Chinese cities.",
-      "japan": "Japan",
-      "japanDescription": "Precision for the Discerning Eye",
-      "japanTotalQualityManagement": "Total Quality Management",
-      "japanTotalQualityManagementDescription": "Stringent QC processes aligned with Japanese luxury standards.",
-      "japanArtisanalAlignment": "Artisanal Alignment",
-      "japanArtisanalAlignmentDescription": "Deep respect for Japanese minimalist design and craft philosophies.",
-      "japanLocalSupport": "Local Support",
-      "japanLocalSupportDescription": "Dedicated account management for Tokyo and Osaka fashion districts.",
-      "exploreJapanPartnership": "Explore Japan Partnership →",
-      "beginYourJourney": "Begin Your <br /> Italian Chapter",
-      "beginYourJourneyDescription": "Connect with our production experts to discuss your collection's scale, yarn requirements, and target markets.",
-      "form": {
-        "companyName": "Company Name",
-        "marketInterest": "Market Interest",
-        "professionalEmail": "Professional Email",
-        "projectVolume": "Project Volume",
-        "yourRequirements": "Your Requirements",
-        "requestConsultation": "Request Consultation",
-        "placeholders": {
-          "placeholderCompanyName": "Luxury Fashion Group",
-          "yourRequirements": "Tell us about your seasonal needs..."
-        },
-        "options": {
-          "marketInterest": {
-            "greater-china": "Greater China",
-            "japan": "Japan",
-            "both-markets": "Both Markets",
-            "other-global": "Other / Global"
-          },
-          "projectVolume": {
-            "small-batch": "Small Batch (Artisanal)",
-            "mid-scale": "Mid-Scale (1000+ pieces)",
-            "large-scale": "Large Scale (5000+ pieces)"
-          }
-        }
-      }
+export const siteContent = {
+  en: {
+    nav: {
+      company: "Company",
+      services: "Services",
+      archive: "Archive",
+      sustainability: "Sustainability",
+      contacts: "Contacts",
     },
-    "company": {
-      "heroLuxury": "A luxury knitwear partner built on expertise, archive, and ethics",
-      "heroLuxuryDescription": "Crafting Italian excellence for the global avant-garde. Precision-engineered luxury from the heart of Italy.",
-      "viewServices": "View Services",
-      "ourThreePillars": "Our Three Pillars",
-      "skills": "Skills",
-      "advancedShimaSeikiTechnology": "Advanced Shima Seiki technology combined with traditional hand-finishing expertise. Every stitch is a testament to four decades of technical mastery.",
-      "archive": "Archive",
-      "curatedCollection": "A curated collection of over 40 years of knitwear history. Our physical archive serves as a tactile encyclopedia for contemporary designers.",
-      "ethics": "Ethics",
-      "committedToSustainableSourcing": "Committed to sustainable sourcing and fair labor. We ensure traceable production cycles that respect both artisans and environment.",
-      "productionServices": "Production Services",
-      "endToEndLifecycle": "Our end-to-end lifecycle for luxury knitwear creation.",
-      "studyAndResearch": "Study & Research",
-      "analysisOfAestheticTrends": "Analysis of aesthetic trends, yarn selection from the world's finest spinning mills, and stitch development.",
-      "samplesAndPrototyping": "Samples & Prototyping",
-      "rapidPrototyping": "Rapid prototyping of initial concepts. We refine fit and technical construction to ensure absolute quality.",
-      "industrialProduction": "Industrial Production",
-      "scaleableManufacturing": "Scaleable manufacturing with rigorous quality control, from automated knitting to artisanal hand-assembly.",
-      "regionalExpertise": "Regional Expertise",
-      "asiaPrograms": "Asia Programs",
-      "specializedLogisticsAndProductionStrategies": "Specialized logistics and production strategies tailored for the unique demands of East Asian luxury markets.",
-      "chinaFocus": "China Focus: Speed & Scale",
-      "chinaFocusDescription": "Tailored for high-growth luxury portfolios. We offer agile development cycles and scaled manufacturing capacity to meet the dynamic demands of the Chinese market without compromising Italian quality.",
-      "japanFocus": "Japan Focus: Precision & Ethics",
-      "japanFocusDescription": "Focused on the Japanese market's appreciation for technical perfection and sustainability. Our Japan program emphasizes complete traceability and ultra-high-precision finishing techniques.",
-      "rapidLogisticsPipeline": "Rapid logistics pipeline",
-      "highVolumeCapacity": "High-volume capacity",
-      "digitalCollaborationTools": "Digital collaboration tools",
-      "gots": "GOTS & RWS Certifications",
-      "precisionHandFinishing": "Precision hand-finishing",
-      "longTermPartnershipFocus": "Long-term partnership focus",
-      "readyToStartYourNextLuxuryCollection": "Ready to start your next luxury collection?",
-      "ourTeamIsReadyToDiscussYourSpecificProductionNeeds": "Our team is ready to discuss your specific production needs. Reach out for a consultation regarding our archive or manufacturing capacities.",
-      "inquireNow": "Inquire Now"
+
+    hero: {
+      eyebrow: "Italian Knitwear Excellence Since 1977",
+      title: "Fully Fashioned Knitwear for Global Brands",
+      description:
+        "Maglificio Pini supports premium and luxury brands with fully fashioned knitwear development and production, combining Italian craftsmanship, technical expertise, and reliable execution.",
+      ctaPrimary: "Discover Our Expertise",
+      ctaSecondary: "Contact Us",
     },
-    "contacts": {
-      "connectWithTheAtelier": "Connect with the <span class=\"text-primary italic\">Atelier</span>",
-      "ourExpertsAreReadyToTranslateYourVisionIntoExceptionalItalianKnitwear": "Our experts are ready to translate your vision into exceptional Italian knitwear. Reach out to discuss your next luxury collection.",
-      "email": "Email",
-      "phone": "Phone",
-      "address": "Address",
-      "fullName": "Full Name",
-      "businessEmail": "Business Email",
-      "brandPositioning": "Brand Positioning",
-      "companyName": "Company Name",
-      "officialWebsite": "Official Website",
-      "seasonalVolume": "Seasonal Volume",
-      "projectScopeAndMessage": "Project Scope & Message",
-      "submitInquiry": "Submit Inquiry",
-      "bySubmittingYouAgreeToOurPrivacyPolicyAndTheProcessingOfBusinessDataInAccordanceWithItalianGdprRegulations": "By submitting, you agree to our privacy policy and the processing of business data in accordance with Italian GDPR regulations.",
-      "options": {
-        "brandPositioning": {
-          "select": "Select Category",
-          "luxury": "Luxury / Couture",
-          "contemporary": "Contemporary / Bridge",
-          "emerging": "Emerging Designer",
-          "mass": "High Street Premium"
+
+    intro: {
+      title: "Crafted in Italy. Trusted Worldwide.",
+      description:
+        "Founded in 1977, Maglificio Pini is a family-owned Italian knitwear manufacturer specialized in high-end fully fashioned garments. Nearly five decades of experience, technical know-how, and continuous research allow us to support demanding brands from concept to production.",
+    },
+
+    pillars: {
+      items: [
+        {
+          number: "1977",
+          label: "Founded",
+          description: "A long-standing heritage in Italian knitwear manufacturing.",
         },
-        "seasonalVolume": {
-          "select": "Select Volume",
-          "sample": "Samples Only (Prototyping)",
-          "small": "50 - 200 units",
-          "medium": "200 - 1,000 units",
-          "large": "1,000+ units"
-        }
+        {
+          number: "4,000+",
+          label: "Archive Pieces",
+          description: "Garments and stitch developments collected over decades.",
+        },
+        {
+          number: "1,400 m²",
+          label: "Integrated Facility",
+          description:
+            "A structured production environment with key processes managed in-house.",
+        },
+      ],
+    },
+
+    company: {
+      title: "A Structured Partner for Demanding Collections",
+      paragraphs: [
+        "Maglificio Pini was founded in the Romagna Apennines in Italy as a family company dedicated to high-quality knitwear. Over the years, it has grown into a trusted development and manufacturing partner for international premium and luxury brands.",
+        "The company works exclusively in fully fashioned knitwear and manages all key development phases internally, from research and sampling to linking, finishing, and quality control.",
+        "Today, under second-generation leadership, Maglificio Pini combines artisanal sensitivity, industrial consistency, and an increasingly international perspective.",
+      ],
+      highlights: [
+        "Fully fashioned knitwear specialist",
+        "In-house R&D, sampling, linking, finishing, and quality control",
+        "Advanced Shima Seiki machinery across multiple gauges",
+        "MOQ starting from 50 pieces per style",
+      ],
+    },
+
+    services: {
+      title: "Core Capabilities",
+      items: [
+        {
+          title: "Study & Research",
+          description:
+            "Continuous experimentation in stitches, techniques, fit, and yarn proposals to transform creative ideas into technically viable knitwear solutions.",
+        },
+        {
+          title: "Sampling",
+          description:
+            "Rapid and accurate prototype development with attention to proportion, construction, and product identity.",
+        },
+        {
+          title: "Production",
+          description:
+            "Premium small-to-medium production runs with consistency, precision, and respect for timelines.",
+        },
+        {
+          title: "Technical Development",
+          description:
+            "Advanced support for complex knitwear structures including jacquard, intarsia, special constructions, brushing, twisting, embroidery, applications, and printing on request.",
+        },
+      ],
+    },
+
+    process: {
+      title: "From Concept to Production",
+      items: [
+        {
+          title: "1. Creative Brief",
+          description:
+            "We align on product vision, collection needs, yarn direction, and technical objectives.",
+        },
+        {
+          title: "2. Research & Sampling",
+          description:
+            "We develop swatches, stitches, and prototypes with speed, precision, and technical dialogue.",
+        },
+        {
+          title: "3. Production",
+          description:
+            "We organize production internally with strict attention to quality, consistency, and delivery planning.",
+        },
+        {
+          title: "4. Finishing & Control",
+          description:
+            "Linking, finishing, ironing, and quality control are managed with the same care given to development.",
+        },
+      ],
+    },
+
+    technology: {
+      title: "Technology Supporting Craftsmanship",
+      description:
+        "Our facility is equipped with advanced Shima Seiki electronic flat knitting machines covering multiple gauges, from heavy knitwear to fine gauge developments. Internal departments also include yarn twisting, brushing, garment assembly, finishing, and RFID-based product tracking.",
+    },
+
+    expertise: {
+      title: "Built for Complexity",
+      description:
+        "Maglificio Pini is particularly valued for advanced pattern development and technically refined knitwear. We support brands seeking more than production alone: a partner able to interpret design intent and translate it into precise, manufacturable garments.",
+    },
+
+    archive: {
+      title: "A Living Archive of Knitwear Knowledge",
+      description:
+        "More than 4,000 garments and stitch developments form a unique historical archive that serves both as inspiration and as a practical tool for product development. It reflects decades of work, experimentation, and manufacturing culture.",
+    },
+
+    sustainability: {
+      title: "Responsible Growth",
+      description:
+        "Our approach to sustainability is concrete and measurable. Maglificio Pini is certified as an Ethical Company and participates in circular initiatives for the recovery and recycling of production waste. Upon request, we are fully equipped to work with certified sustainable yarns.",
+    },
+
+    values: {
+      title: "What Defines Us",
+      items: [
+        {
+          title: "Made in Italy",
+          description:
+            "Authentic manufacturing quality rooted in Italian textile culture.",
+        },
+        {
+          title: "Reliability",
+          description:
+            "A consistent and structured partner for development and production.",
+        },
+        {
+          title: "Research",
+          description:
+            "Continuous experimentation in stitches, fit, and technical solutions.",
+        },
+        {
+          title: "Care",
+          description:
+            "Attention to detail in both product execution and client relationships.",
+        },
+      ],
+    },
+
+    contact: {
+      title: "Let’s Build Your Next Knitwear Collection",
+      description:
+        "Get in touch to discuss yarns, development needs, timelines, minimums, and production opportunities.",
+      emailLabel: "Email",
+      phoneLabel: "Phone",
+      form: {
+        companyName: "Company Name",
+        marketInterest: "Region of Interest",
+        professionalEmail: "Professional Email",
+        projectVolume: "Project Volume",
+        requirements: "Your Requirements",
+        submit: "Request Consultation",
+        marketOptions: ["Japan", "China", "Europe", "Global", "Other"],
+        volumeOptions: [
+          "Small Batch",
+          "Mid-Scale Production",
+          "Large Scale Production",
+        ],
       },
-      "placeholders": {
-        "placeholderFullName": "e.g. Alessandro Rossi",
-        "placeholderCompanyName": "Official entity name",
-        "placeholderProjectScopeAndMessage": "Tell us about your collection needs, timeline, and yarn preferences..."
-      }
     },
-    "services": {
-      "hero": {
-        "innovationAndHeritage": "Innovation & Heritage",
-        "innovationAndHeritageDescription": "The Nexus of Technology and Craftsmanship",
-        "title": "The Nexus of Technology and Craftsmanship",
-        "description": "Where Italian artisanal heritage meets the pinnacle of knitting technology for global luxury brands. We bridge the gap between creative vision and technical reality.",
-        "exploreTechnicalFleet": "Explore Technical Fleet",
-        "viewPortfolio": "View Portfolio",
-        "ourServices": "Our Services",
-        "ourServicesDescription": "An end-to-end narrative of excellence in knitwear development, from initial yarn selection to global logistics.",
-        "creativeResearch": "Creative Research",
-        "creativeResearchDescription": "Deep exploration of yarn archives and stitch structures to define seasonal identities. We curate a vast library of technical solutions for the world's most demanding designers.",
-        "precisionSampling": "Precision Sampling",
-        "precisionSamplingDescription": "Translating complex designs into technical prototypes with meticulous attention to detail. Every gauge, tension, and finishing is calibrated to perfection.",
-        "scaleProduction": "Scale Production",
-        "scaleProductionDescription": "Flawless execution of high-gauge knitwear using our state-of-the-art manufacturing infrastructure. Consistency and quality control at the highest industrial standards.",
-        "technicalInfrastructure": "Technical Infrastructure",
-        "technicalInfrastructureDescription": "German precision engineering allowing for unprecedented pattern complexity and garment shaping. From 1.5 to 18 gauge capabilities.",
-        "technicalFleet": "The Stoll Fleet",
-        "shimaSeikiTechnology": "Shima Seiki Technology",
-        "shimaSeikiTechnologyDescription": "Advanced 3D WHOLEGARMENT® knitting that eliminates seams for superior comfort and minimal waste production.",
-        "creativeFreedom": "Creative Freedom",
-        "creativeFreedomDescription": "Our machines are not just tools, they are extensions of the designer's mind, capable of realizing any texture or silhouette.",
-        "viewTechnicalSpecs": "View Technical Specs",
-        "partnerWithExcellence": "Partner with Excellence",
-        "partnerWithExcellenceDescription": "We invite global luxury brands to explore our facility in Forli or arrange a virtual tour of our technical laboratory."
-      }
-    }
-  }
-}
+  },
+} as const;
