@@ -183,4 +183,153 @@ export const siteContent = {
       },
     },
   },
+} as const;        },
+        {
+          number: "1,400 m²",
+          label: "Integrated Facility",
+          description:
+            "A structured production environment with key processes managed in-house.",
+        },
+      ],
+    },
+
+    company: {
+      title: "A Structured Partner for Demanding Collections",
+      paragraphs: [
+        "Maglificio Pini was founded in the Romagna Apennines in Italy as a family company dedicated to high-quality knitwear. Over the years, it has grown into a trusted development and manufacturing partner for international premium and luxury brands.",
+        "The company works exclusively in fully fashioned knitwear and manages all key development phases internally, from research and sampling to linking, finishing, and quality control.",
+        "Today, under second-generation leadership, Maglificio Pini combines artisanal sensitivity, industrial consistency, and an increasingly international perspective.",
+      ],
+      highlights: [
+        "Fully fashioned knitwear specialist",
+        "In-house R&D, sampling, linking, finishing, and quality control",
+        "Advanced Shima Seiki machinery across multiple gauges",
+        "MOQ starting from 50 pieces per style",
+      ],
+    },
+
+    services: {
+      title: "Core Capabilities",
+      items: [
+        {
+          title: "Study & Research",
+          description:
+            "Continuous experimentation in stitches, techniques, fit, and yarn proposals to transform creative ideas into technically viable knitwear solutions.",
+        },
+        {
+          title: "Sampling",
+          description:
+            "Rapid and accurate prototype development with attention to proportion, construction, and product identity.",
+        },
+        {
+          title: "Production",
+          description:
+            "Premium small-to-medium production runs with consistency, precision, and respect for timelines.",
+        },
+        {
+          title: "Technical Development",
+          description:
+            "Advanced support for complex knitwear structures including jacquard, intarsia, special constructions, brushing, twisting, embroidery, applications, and printing on request.",
+        },
+      ],
+    },
+
+    process: {
+      title: "From Concept to Production",
+      items: [
+        {
+          title: "1. Creative Brief",
+          description:
+            "We align on product vision, collection needs, yarn direction, and technical objectives.",
+        },
+        {
+          title: "2. Research & Sampling",
+          description:
+            "We develop swatches, stitches, and prototypes with speed, precision, and technical dialogue.",
+        },
+        {
+          title: "3. Production",
+          description:
+            "We organize production internally with strict attention to quality, consistency, and delivery planning.",
+        },
+        {
+          title: "4. Finishing & Control",
+          description:
+            "Linking, finishing, ironing, and quality control are managed with the same care given to development.",
+        },
+      ],
+    },
+
+    technology: {
+      title: "Technology Supporting Craftsmanship",
+      description:
+        "Our facility is equipped with advanced Shima Seiki electronic flat knitting machines covering multiple gauges, from heavy knitwear to fine gauge developments. Internal departments also include yarn twisting, brushing, garment assembly, finishing, and RFID-based product tracking.",
+    },
+
+    expertise: {
+      title: "Built for Complexity",
+      description:
+        "Maglificio Pini is particularly valued for advanced pattern development and technically refined knitwear. We support brands seeking more than production alone: a partner able to interpret design intent and translate it into precise, manufacturable garments.",
+    },
+
+    archive: {
+      title: "A Living Archive of Knitwear Knowledge",
+      description:
+        "More than 4,000 garments and stitch developments form a unique historical archive that serves both as inspiration and as a practical tool for product development. It reflects decades of work, experimentation, and manufacturing culture.",
+    },
+
+    sustainability: {
+      title: "Responsible Growth",
+      description:
+        "Our approach to sustainability is concrete and measurable. Maglificio Pini is certified as an Ethical Company and participates in circular initiatives for the recovery and recycling of production waste. Upon request, we are fully equipped to work with certified sustainable yarns.",
+    },
+
+    values: {
+      title: "What Defines Us",
+      items: [
+        {
+          title: "Made in Italy",
+          description:
+            "Authentic manufacturing quality rooted in Italian textile culture.",
+        },
+        {
+          title: "Reliability",
+          description:
+            "A consistent and structured partner for development and production.",
+        },
+        {
+          title: "Research",
+          description:
+            "Continuous experimentation in stitches, fit, and technical solutions.",
+        },
+        {
+          title: "Care",
+          description:
+            "Attention to detail in both product execution and client relationships.",
+        },
+      ],
+    },
+
+    contact: {
+      title: "Let’s Build Your Next Knitwear Collection",
+      description:
+        "Get in touch to discuss yarns, development needs, timelines, minimums, and production opportunities.",
+      emailLabel: "Email",
+      phoneLabel: "Phone",
+      form: {
+        companyName: "Company Name",
+        marketInterest: "Region of Interest",
+        professionalEmail: "Professional Email",
+        projectVolume: "Project Volume",
+        requirements: "Your Requirements",
+        submit: "Request Consultation",
+        marketOptions: ["Japan", "China", "Europe", "Global", "Other"],
+        volumeOptions: [
+          "Small Batch",
+          "Mid-Scale Production",
+          "Large Scale Production",
+        ],
+      },
+    },
+  },
 } as const;
