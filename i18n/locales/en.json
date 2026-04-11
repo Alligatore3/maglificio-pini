@@ -115,6 +115,87 @@
       ]
     }
   }
+}        "title": "1. Consultation",
+        "description": "We define creative direction, yarn options, technical requirements, and product goals together with the brand."
+      },
+      {
+        "title": "2. Research & Sampling",
+        "description": "We develop stitches, swatches, and prototypes with speed, precision, and continuous technical dialogue."
+      },
+      {
+        "title": "3. Production",
+        "description": "We manage small-to-medium production runs with consistent quality control and reliable execution."
+      },
+      {
+        "title": "4. Finishing & Delivery",
+        "description": "From linking and finishing to final coordination, every step is managed with care and efficiency."
+      }
+    ]
+  },
+  "chinaMarket": {
+    "eyebrow": "International Projects",
+    "title": "Flexibility for Fast-Moving Collections",
+    "points": [
+      {
+        "title": "Development Speed",
+        "description": "Rapid response for seasonal collections, capsules, and limited-edition projects."
+      },
+      {
+        "title": "Technical Flexibility",
+        "description": "A development-oriented structure suited to brands seeking both creativity and execution."
+      },
+      {
+        "title": "Export Experience",
+        "description": "Established international workflow and communication standards for global partners."
+      }
+    ],
+    "cta": "Discover Our Capabilities →"
+  },
+  "japanMarket": {
+    "eyebrow": "Quality-Driven Approach",
+    "title": "Precision for Demanding Brands",
+    "points": [
+      {
+        "title": "High Quality Standards",
+        "description": "Strict attention to detail, consistency, and finishing throughout every stage of production."
+      },
+      {
+        "title": "Craft and Discipline",
+        "description": "A manufacturing culture shaped by precision, reliability, and product integrity."
+      },
+      {
+        "title": "Structured Communication",
+        "description": "Clear and responsive coordination to support long-term relationships with international brands."
+      }
+    ],
+    "cta": "Explore Our Approach →"
+  },
+  "contact": {
+    "title": "Let’s Build Your Next Knitwear Collection",
+    "description": "Connect with our team to discuss collection goals, yarn requirements, development timelines, and production volumes.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "form": {
+      "companyName": "Company Name",
+      "marketInterest": "Region of Interest",
+      "professionalEmail": "Professional Email",
+      "projectVolume": "Project Volume",
+      "requirements": "Your Requirements",
+      "submit": "Request Consultation",
+      "marketOptions": [
+        "Japan",
+        "China",
+        "Europe",
+        "Global",
+        "Other"
+      ],
+      "volumeOptions": [
+        "Small Batch",
+        "Mid-Scale Production",
+        "Large Scale Production"
+      ]
+    }
+  }
 }    ]
   },
   "company": {
