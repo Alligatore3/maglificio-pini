@@ -48,12 +48,8 @@
             >
               {{ $t('header.contacts') }}
             </NuxtLink>
-            <button
-              type="button"
-              class="text-xs font-bold text-[#896168] dark:text-[#a5868c] hover:text-primary transition-colors"
-            >
-              EN | 中文 | 日本語
-            </button>
+
+            <LanguageSwitch id="language-switch-desktop" name="language-switch-desktop" />
           </div>
         </nav>
       </div>
@@ -89,12 +85,8 @@
           >
             {{ $t('header.contacts') }}
           </NuxtLink>
-          <button
-            type="button"
-            class="mt-2 px-3 py-2 text-left text-xs font-bold text-[#896168] dark:text-[#a5868c] hover:text-primary transition-colors"
-          >
-            EN | 中文 | 日本語
-          </button>
+
+          <LanguageSwitch id="language-switch-mobile" name="language-switch-mobile" class="mt-8" />
         </nav>
       </Transition>
     </div>
