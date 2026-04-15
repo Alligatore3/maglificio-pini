@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const localePath = useLocalePath()
+</script>
+
 <template>
   <!-- Hero Section -->
   <section class="w-full max-w-[1200px] px-6 py-8 md:py-16 mx-auto">
@@ -22,7 +26,7 @@
           </p>
           <NuxtLink
             class="bg-white/10 w-fit mx-auto flex items-center backdrop-blur-md border border-white/20 text-white h-12 px-8 rounded-lg font-bold hover:bg-white/20 transition-all"
-            to="/services"
+            :to="localePath('/services')"
           >
             {{ $t('pages.company.viewServices') }}
           </NuxtLink>
@@ -300,7 +304,7 @@
 
       <NuxtLink
         class="bg-primary flex items-center text-white h-14 px-10 rounded-xl font-bold text-lg hover:shadow-xl hover:shadow-primary/20 transition-all"
-        to="/contacts"
+        :to="localePath('/contacts')"
       >
         {{ $t('pages.company.inquireNow') }}
       </NuxtLink>

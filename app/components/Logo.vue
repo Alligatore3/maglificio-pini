@@ -1,5 +1,9 @@
+<script setup lang="ts">
+const localePath = useLocalePath()
+</script>
+
 <template>
-  <NuxtLink class="tracking-widest" to="/">
+  <NuxtLink class="tracking-widest" :to="localePath('/')">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="w-[145px] h-[54px]">
       <path
         fill="#126eb3"

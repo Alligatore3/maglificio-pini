@@ -27,7 +27,7 @@
             <NuxtLink
               class="text-sm font-medium hover:text-primary/70 dark:text-gray-200 transition-colors"
               active-class="active"
-              to="/company"
+              :to="localePath('/company')"
             >
               {{ $t('header.company') }}
             </NuxtLink>
@@ -35,7 +35,7 @@
             <NuxtLink
               class="text-sm font-medium hover:text-primary/70 dark:text-gray-200 transition-colors"
               active-class="active"
-              to="/services"
+              :to="localePath('/services')"
             >
               {{ $t('header.services') }}
             </NuxtLink>
@@ -44,7 +44,7 @@
             <NuxtLink
               class="bg-primary text-white px-5 py-2 rounded-lg text-sm font-bold tracking-wide hover:opacity-90 transition-opacity"
               active-class="active"
-              to="/contacts"
+              :to="localePath('/contacts')"
             >
               {{ $t('header.contacts') }}
             </NuxtLink>
@@ -64,7 +64,7 @@
           <NuxtLink
             class="rounded-lg px-3 py-3 text-base font-medium text-[#3d2025] dark:text-gray-200 hover:bg-black/5 dark:hover:bg-white/5 transition-colors"
             active-class="!text-primary bg-black/5 dark:bg-white/5"
-            to="/company"
+            :to="localePath('/company')"
             @click="mobileOpen = false"
           >
             {{ $t('header.company') }}
@@ -72,7 +72,7 @@
           <NuxtLink
             class="rounded-lg px-3 py-3 text-base font-medium text-[#3d2025] dark:text-gray-200 hover:bg-black/5 dark:hover:bg-white/5 transition-colors"
             active-class="!text-primary bg-black/5 dark:bg-white/5"
-            to="/services"
+            :to="localePath('/services')"
             @click="mobileOpen = false"
           >
             {{ $t('header.services') }}
@@ -80,7 +80,7 @@
           <NuxtLink
             class="mt-1 rounded-lg bg-primary px-3 py-3 text-center text-base font-bold tracking-wide text-white hover:opacity-90 transition-opacity"
             active-class="active"
-            to="/contacts"
+            :to="localePath('/contacts')"
             @click="mobileOpen = false"
           >
             {{ $t('header.contacts') }}
@@ -95,6 +95,7 @@
 
 <script setup lang="ts">
 const mobileOpen = ref(false)
+const localePath = useLocalePath()
 const route = useRoute()
 
 watch(
