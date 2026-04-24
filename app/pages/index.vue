@@ -298,7 +298,7 @@
               </div>
               <div class="flex items-center gap-4">
                 <span class="material-symbols-outlined text-primary">call</span>
-                <a href="tel:+390543123456" class="font-bold">+39 0543 123456</a>
+                <a href="tel:+8108091667377" class="font-bold">+81 080-9166-7377</a>
               </div>
             </div>
           </div>

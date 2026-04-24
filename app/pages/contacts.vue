@@ -66,7 +66,7 @@ const submitForm = () => {
             >
               {{ $t('pages.contacts.phone') }}
             </p>
-            <a href="tel:+390543782111" class="text-lg font-medium">+39 0543 782111</a>
+            <a href="tel:+8108091667377" class="text-lg font-medium">+81 080-9166-7377</a>
           </div>
           <div
             class="grid grid-cols-[100px_1fr] border-t border-[#e6dbdd] dark:border-[#3d2a2d] py-6"
