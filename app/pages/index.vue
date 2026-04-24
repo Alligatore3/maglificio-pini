@@ -196,7 +196,7 @@
               </li>
             </ul>
             <a
-              href="mailto:p.fugazzaro.noboco@gmail.com?subject=Greater China partnership — Maglificio Pini"
+              href="mailto:japan@maglificiopini.com?subject=Greater China partnership — Maglificio Pini"
               class="block cursor-pointer mt-12 text-sm font-bold uppercase tracking-widest text-primary hover:underline underline-offset-8"
             >
               Explore China Partnership →
@@ -261,7 +261,7 @@
               </li>
             </ul>
             <a
-              href="mailto:p.fugazzaro.noboco@gmail.com?subject=Japan partnership — Maglificio Pini"
+              href="mailto:japan@maglificiopini.com?subject=Japan partnership — Maglificio Pini"
               class="block cursor-pointer mt-12 text-sm font-bold uppercase tracking-widest text-primary hover:underline underline-offset-8"
             >
               {{ $t('pages.index.exploreJapanPartnership') }}
@@ -292,8 +292,8 @@
             <div class="mt-10 space-y-4">
               <div class="flex items-center gap-4">
                 <span class="material-symbols-outlined text-primary">mail</span>
-                <a href="mailto:production@maglificiopini.it" class="font-bold"
-                  >production@maglificiopini.it</a
+                <a href="mailto:japan@maglificiopini.com" class="font-bold"
+                  >japan@maglificiopini.com</a
                 >
               </div>
               <div class="flex items-center gap-4">

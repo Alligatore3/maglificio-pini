@@ -19,7 +19,7 @@ const handleSubmit = () => {
       `Thanks!`
   )
 
-  const mailtoUrl = `mailto:p.fugazzaro.noboco@gmail.com?subject=${subject}&body=${body}`
+  const mailtoUrl = `mailto:japan@maglificiopini.com?subject=${subject}&body=${body}`
   window.open(mailtoUrl.toString(), '_blank')
 }
 </script>

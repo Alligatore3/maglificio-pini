@@ -15,7 +15,7 @@ const submitForm = () => {
     `Name: ${form.name}\nEmail: ${form.email}\nCompany: ${form.company}\nWebsite: ${form.website}\nCategory: ${form.category}\nVolume: ${form.volume}\nMessage: ${form.message}`
   )
 
-  const mailtoUrl = `mailto:p.fugazzaro.noboco@gmail.com?subject=${title}&body=${body}`
+  const mailtoUrl = `mailto:japan@maglificiopini.com?subject=${title}&body=${body}`
   window.open(mailtoUrl.toString(), '_blank')
 }
 </script>
@@ -54,8 +54,8 @@ const submitForm = () => {
             >
               {{ $t('pages.contacts.email') }}
             </p>
-            <a href="mailto:inquiry@maglificiopini.it" class="text-lg font-medium"
-              >inquiry@maglificiopini.it</a
+            <a href="mailto:japan@maglificiopini.com" class="text-lg font-medium"
+              >japan@maglificiopini.com</a
             >
           </div>
           <div
